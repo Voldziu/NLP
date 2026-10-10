@@ -6,6 +6,7 @@
 - Oceniasz **opinię autora**, nie własne zdanie o produkcie, lekarzu czy hotelu.
 - Przy wątpliwości wybierz etykietę, która najlepiej oddaje **ogólne wrażenie** autora. Zapisz numer tekstu i krótką uwagę do omówienia po iteracji.
 - Nie szukaj w internecie ani nie sprawdzaj oryginalnych etykiet korpusu.
+- Nie staraj się na siłę wybierać `plus_m` lub `minus_m`, jeśli tekst nie wyraża wyraźnej opinii.
 
 ## Zadanie 1: wydźwięk całego tekstu
 
@@ -16,6 +17,11 @@
 | `zero` | Tekst opisuje fakty lub nie wyraża oceny. |
 | `amb` | Są wyraźne pozytywy **i** negatywy, żaden nie dominuje. |
 
+Przykłady:
+- „Pokój czysty, obsługa miła, na pewno wrócimy." → `plus_m`
+- „Brud, hałas, nie polecam nikomu." → `minus_m`
+- „Hotel ma 50 pokoi i basen." → `zero`
+- „Jedzenie świetne, ale obsługa fatalna." → `amb`
 
 Przypadki graniczne:
 - Jedna drobna uwaga w pochwalnej opinii („trochę drogo, ale wszystko super") → `plus_m`.
@@ -34,6 +40,12 @@ Słowo zmieniające siłę lub kierunek oceny. Zaznacz je **osobno** od aspektu.
 | `wzmocnienie` | Zwiększa siłę oceny. | bardzo, wyjątkowo, totalnie |
 | `oslabienie` | Zmniejsza siłę oceny. | trochę, raczej, dość |
 | `negacja` | Odwraca polaryzację. | nie, bez, żadnej |
+
+Przykład: „Obsługa była **bardzo** miła, jedzenie **nawet** dobre, ale pokój  **nie** był czysty."
+- bardzo → `wzmocnienie`
+- nie → `negacja`
+- nawet → `oslabienie`
+
 
 
 ## Procedura

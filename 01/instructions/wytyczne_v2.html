@@ -1,4 +1,4 @@
-<h1>Wytyczne anotacji v1 (PolEmo – opinie)</h1>
+<h1>Wytyczne anotacji v2 (PolEmo – opinie)</h1>
 
 <h2>Zasady ogólne</h2>
 <ul>
@@ -7,6 +7,7 @@
   <li>Oceniasz <strong>opinię autora</strong>, nie własne zdanie o produkcie, lekarzu czy hotelu.</li>
   <li>Przy wątpliwości wybierz etykietę, która najlepiej oddaje <strong>ogólne wrażenie</strong> autora. Zapisz numer tekstu i krótką uwagę do omówienia po iteracji.</li>
   <li>Nie szukaj w internecie ani nie sprawdzaj oryginalnych etykiet korpusu.</li>
+  <li>Nie staraj się na siłę wybierać <code>plus_m</code> lub <code>minus_m</code>, jeśli tekst nie wyraża wyraźnej opinii.</li>
 </ul>
 
 <h2>Zadanie 1: wydźwięk całego tekstu</h2>
@@ -17,6 +18,14 @@
   <tr><td><code>zero</code></td><td>Tekst opisuje fakty lub nie wyraża oceny.</td></tr>
   <tr><td><code>amb</code></td><td>Są wyraźne pozytywy <strong>i</strong> negatywy, żaden nie dominuje.</td></tr>
 </table>
+
+<p>Przykłady:</p>
+<ul>
+  <li>„Pokój czysty, obsługa miła, na pewno wrócimy." → <code>plus_m</code></li>
+  <li>„Brud, hałas, nie polecam nikomu." → <code>minus_m</code></li>
+  <li>„Hotel ma 50 pokoi i basen." → <code>zero</code></li>
+  <li>„Jedzenie świetne, ale obsługa fatalna." → <code>amb</code></li>
+</ul>
 
 <p>Przypadki graniczne:</p>
 <ul>
@@ -36,6 +45,13 @@
   <tr><td><code>oslabienie</code></td><td>Zmniejsza siłę oceny.</td><td>trochę, raczej, dość</td></tr>
   <tr><td><code>negacja</code></td><td>Odwraca polaryzację.</td><td>nie, bez, żadnej</td></tr>
 </table>
+
+<p>Przykład: „Obsługa była <strong>bardzo</strong> miła, jedzenie <strong>nawet</strong> dobre, ale pokój <strong>nie</strong> był czysty."</p>
+<ul>
+  <li>bardzo → <code>wzmocnienie</code></li>
+  <li>nie → <code>negacja</code></li>
+  <li>nawet → <code>oslabienie</code></li>
+</ul>
 
 <h2>Procedura</h2>
 <ol>
