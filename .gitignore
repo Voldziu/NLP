@@ -1,4 +1,3 @@
 .venv/
 .DS_Store
 data
-01/annotation/**/gold_*.json
