@@ -1,1 +1,1387 @@
-[{"id":1,"annotations":[{"id":2,"completed_by":1,"result":[{"value":{"start":85,"end":91,"text":"bardzo","labels":["wzmocnienie"]},"id":"opY6yvwtni","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":169,"end":175,"text":"Pewnym","labels":["oslabienie"]},"id":"JFmSpLXkYk","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":193,"end":197,"text":"brak","labels":["negacja"]},"id":"Y3pTE25gkg","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"SSlW_gR8z0","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:05:39.618227Z","updated_at":"2026-10-10T11:05:39.618238Z","draft_created_at":"2026-10-10T10:50:17.297566Z","lead_time":347.541,"prediction":{},"result_count":4,"unique_id":"b3a96176-337a-4a67-9427-d23001ac6175","import_id":null,"last_action":null,"bulk_created":false,"task":1,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":611,"text":"na plus muszę zaliczyć położenie (idealne na nocleg tranzytowy) i śniadanie. Obsługa bardzo miła - na recepcji przywitał nas właściciel, a śniadanie podawała jego żona. Pewnym mankamentem jest brak restauracji w samym hotelu, a nawet w pobliżu. Musieli śmy pojechać autem, żeby coś zjeść."},"meta":{},"created_at":"2026-10-10T10:46:35.397030Z","updated_at":"2026-10-10T11:05:39.633283Z","allow_skip":true,"inner_id":1,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":2,"annotations":[{"id":3,"completed_by":1,"result":[{"value":{"start":157,"end":162,"text":"nawet","labels":["oslabienie"]},"id":"Iwcr7sSeI5","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":905,"end":911,"text":"raczej","labels":["oslabienie"]},"id":"EGT8dldn4w","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"aZaBP18vjl","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"},{"value":{"start":573,"end":576,"text":"nic","labels":["negacja"]},"id":"90kk2lCIDj","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":642,"end":652,"text":"wydają się","labels":["oslabienie"]},"id":"gkcXMFx16q","from_name":"spans","to_name":"text","type":"labels","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:12:28.100020Z","updated_at":"2026-10-10T11:12:28.100044Z","draft_created_at":"2026-10-10T11:08:30.288755Z","lead_time":404.948,"prediction":{},"result_count":5,"unique_id":"e2e28b29-3f30-4376-ab17-2f3a3f557c66","import_id":null,"last_action":null,"bulk_created":false,"task":2,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":2498,"text":"Cóż, w tej cenie nie ma co się spodziewać cudów, dźwięk jest, basy praktycznie zerowe co jednak można korektorem w karcie dźwiękowej podbić i wówczas brzmią nawet znośnie, choć jest czysto i w miarę przestrzennie to jakość brzmienia typowa dla multimedialnych pierdziawek, Co do trybu oszczędzania i wyłączania się głośników to ja tego nie doświadczył em, od momentu podpięcia ani raz się nie wyłączyły nawet po nocy kiedy ich nie używał em, na plus należy zaliczyć wygląd i jakość wykonania, na biurku wyglądają ładnie, są cieżkie i stabilnie stoją i są dobrze zbudowane, nic nie lata nie trzeszczy, ładne spasowanie elementów, przewody też wydają się być solidne i grube więc raczej o połamanych kablach nie będzie tu mowy. Ogólnie za 55 zł bo za tyle je wyrwał em to oceniam pozytywnie, idealne do tego do czego potrzebował em czyli generalnie oglądanie filmików w necie i do filmów wieczorami. Muzyki raczej by m na tym nie słuchał bo nie brzmi jak powinna."},"meta":{},"created_at":"2026-10-10T10:46:35.397088Z","updated_at":"2026-10-10T11:12:28.117833Z","allow_skip":true,"inner_id":2,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":3,"annotations":[{"id":4,"completed_by":1,"result":[{"value":{"start":261,"end":267,"text":"bardzo","labels":["wzmocnienie"]},"id":"jeCdTmtJP_","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":337,"end":344,"text":"Ogólnie","labels":["oslabienie"]},"id":"gWyVyJRU6C","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"goI1Di4z3i","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:15:20.379321Z","updated_at":"2026-10-10T11:15:20.379341Z","draft_created_at":"2026-10-10T11:12:57.405679Z","lead_time":169.027,"prediction":{},"result_count":3,"unique_id":"5626ff66-4b72-45c0-baf6-452eac8a097f","import_id":null,"last_action":null,"bulk_created":false,"task":3,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":1199,"text":"Hotel 4 gwiazdkowy zbudowany chyba w latach 90 gdzie pojęcie wysokiej jakości czy luksusu odbiegało od teraźniejszości. Syntetycznie rzecz ujmując. Plusy: czystość, lokalizacja, wygodny materac, siłownia, śniadania. Minusy: minibarek otwarty po wpłacie kaucji (bardzo dziwne rozwiązanie), wystrój i ergonomia, dodatkowe opłaty za saunę. Ogólnie przyjemny pobyt ale w porównaniu do innego obiektu z grupy Mariot o takiej samej liczbie gwiazdek i podobnej cenie jest to przepaść."},"meta":{},"created_at":"2026-10-10T10:46:35.397119Z","updated_at":"2026-10-10T11:15:20.394701Z","allow_skip":true,"inner_id":3,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":4,"annotations":[{"id":5,"completed_by":1,"result":[{"value":{"start":16,"end":22,"text":"bardzo","labels":["wzmocnienie"]},"id":"AcfT-rqovB","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":87,"end":92,"text":"nieco","labels":["oslabienie"]},"id":"yBGjCT-yes","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":303,"end":312,"text":" ogromnym","labels":["wzmocnienie"]},"id":"tZULAb0IPQ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"cp66fwOrBG","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:16:49.193640Z","updated_at":"2026-10-10T11:16:49.193656Z","draft_created_at":"2026-10-10T11:15:29.926339Z","lead_time":87.799,"prediction":{},"result_count":4,"unique_id":"c1872366-1437-4cbe-ac93-4eaa8e3fbdd5","import_id":null,"last_action":null,"bulk_created":false,"task":4,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":5668,"text":"Pan doktor jest bardzo miły i delikatny przy badaniu, niestety odniosła m wrażenie, że nieco zbyt zapracowany, stąd ocena. Od razu przekazuje nr telefonu i zapewnia, że można dzwonić i pisać o każdej porze, więc w razie problemów nie zostaje się samemu z problemem, co w przypadku prowadzenia ciąży jest ogromnym plusem i komfortem. Niestety wizyta opóźniła się o ok. pół godziny co przy prywatnych wizytach wydaje mi się dość sporą obsuwą, a pani w recepcji nadmieniła, że to jest typowe. Po przesłaniu wyników badań dr powiedział, że wszystko jest w porządku, inny lekarz później kazał mi powtórzyć jedno z badań, bo wyszło poza zakresem. Ostatecznie zdecydowała m się na prowadzenie ciąży u tego drugiego lekarza, więc moja opinia dotyczy jednej wizyty."},"meta":{},"created_at":"2026-10-10T10:46:35.397149Z","updated_at":"2026-10-10T11:16:49.208346Z","allow_skip":true,"inner_id":4,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":5,"annotations":[{"id":6,"completed_by":1,"result":[{"value":{"choices":["zero"]},"id":"7bkDpXx_ib","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:17:05.563877Z","updated_at":"2026-10-10T11:17:05.563898Z","draft_created_at":"2026-10-10T11:17:05.004388Z","lead_time":15.581,"prediction":{},"result_count":1,"unique_id":"df388a85-d261-4fd4-a2f5-4d5788a44539","import_id":null,"last_action":null,"bulk_created":false,"task":5,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":1042,"text":"Fizyka H 1 (ćwiczenia) - - > dl a por"},"meta":{},"created_at":"2026-10-10T10:46:35.397175Z","updated_at":"2026-10-10T11:17:05.580669Z","allow_skip":true,"inner_id":5,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":6,"annotations":[{"id":7,"completed_by":1,"result":[{"value":{"start":0,"end":6,"text":"Trochę","labels":["oslabienie"]},"id":"WiMwN6rQB-","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":18,"end":23,"text":"chyba","labels":["oslabienie"]},"id":"Asse6YU2Zr","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":185,"end":190,"text":"żadna","labels":["negacja"]},"id":"4BxxaUOHP_","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["amb"]},"id":"uivVK5yqKV","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:18:37.179200Z","updated_at":"2026-10-10T11:18:37.179223Z","draft_created_at":"2026-10-10T11:17:28.767063Z","lead_time":89.905,"prediction":{},"result_count":4,"unique_id":"ec1531d4-56ff-4a99-a47b-7aada5692d75","import_id":null,"last_action":null,"bulk_created":false,"task":6,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":5255,"text":"Trochę drogo, ale chyba lepiej wydać więcej pieniędzy, jeśli lekarz ma profesjonalne podejście do pacjenta, a tak jest w przypadku pani doktor. Chodziła m do dwóch innych ginekologów i żadna z pań nie zleciła mi badań hormonalnych, zrobiła to dopiero pani Kucz i okazało się, że mam niedobór jednego z hormonów."},"meta":{},"created_at":"2026-10-10T10:46:35.397202Z","updated_at":"2026-10-10T11:18:37.193132Z","allow_skip":true,"inner_id":6,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":7,"annotations":[{"id":8,"completed_by":1,"result":[{"value":{"start":8,"end":15,"text":" bardzo","labels":["wzmocnienie"]},"id":"2Yh2X3lOuU","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"Obu1k9B_Xb","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:19:03.857553Z","updated_at":"2026-10-10T11:19:03.857562Z","draft_created_at":"2026-10-10T11:18:46.410966Z","lead_time":25.631,"prediction":{},"result_count":2,"unique_id":"2d625358-8b8d-4a9f-ba34-0df0ff56f6b7","import_id":null,"last_action":null,"bulk_created":false,"task":7,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":6405,"text":"Recepcja bardzo przyjazna. Pokój czysty i schludny. Na plus w sierpniu w zimną noc grzejniki już grzały. Na minus, budowane budynki obok zasłaniają widok na góry. Śniadanie nie ocenię bo brali śmy o 6. 00 na wynos (wyjście w góry) i paczuszka wystarczyła nam spokojnie na wędrówkę. Polecam."},"meta":{},"created_at":"2026-10-10T10:46:35.397229Z","updated_at":"2026-10-10T11:19:03.874058Z","allow_skip":true,"inner_id":7,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":8,"annotations":[{"id":9,"completed_by":1,"result":[{"value":{"start":149,"end":155,"text":"wielką","labels":["wzmocnienie"]},"id":"TaqWjIz4UN","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"5ofRVAeiHI","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:20:54.258105Z","updated_at":"2026-10-10T11:20:54.258118Z","draft_created_at":"2026-10-10T11:19:47.127075Z","lead_time":83.781,"prediction":{},"result_count":2,"unique_id":"664ade83-fe69-42e8-91ea-e010125b1f53","import_id":null,"last_action":null,"bulk_created":false,"task":8,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":6160,"text":"Profesor negował moją wypowiedź na temat mojego dziecka (nie medyczną). Próbował sprowadzić mnie do parteru wielkością swojego autorytetu. A swoją \" wielką kulturę osobistą \" pokazał, rozmawiając ze mną z ustami pełnym tortu, którego zajadał podczas rozmowy. Kiedy objawy nie pasowały mu do opisu dziecka uznał, że problem na pewno leży po stronie domu. Zweryfikował swoje zdanie dopiero po przeprowadzonym wywiadzie z dzieckiem w gronie studentów, który nie potwierdził jego teorii i uzyskaniu opinii neuropsychologa, która jej również skorygowała. Szkoda, że uzyskał te opinię w dniu wypisu i jego skorygowane wnioski nie zostały ujęte w epikryzie."},"meta":{},"created_at":"2026-10-10T10:46:35.397258Z","updated_at":"2026-10-10T11:20:54.272868Z","allow_skip":true,"inner_id":8,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":9,"annotations":[{"id":10,"completed_by":1,"result":[{"value":{"start":11,"end":22,"text":"wydawał się","labels":["oslabienie"]},"id":"StOT8eioQU","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"JUBQhn9eQN","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"},{"value":{"start":463,"end":469,"text":"bardzo","labels":["wzmocnienie"]},"id":"yfeWaFO3-4","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":23,"end":26,"text":"naj","labels":["wzmocnienie"]},"id":"Yw3CH76Z7L","from_name":"spans","to_name":"text","type":"labels","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:23:26.441857Z","updated_at":"2026-10-10T11:23:26.441869Z","draft_created_at":"2026-10-10T11:21:08.633264Z","lead_time":150.717,"prediction":{},"result_count":4,"unique_id":"9ddb07c2-216e-4d51-90ed-3109c6b72735","import_id":null,"last_action":null,"bulk_created":false,"task":9,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":5072,"text":"Pan doktor wydawał się najsympatyczniejszym lekarzem dziecięcym jakiego znała m, dopóki chodziła m na wizyty prywatne, kiedy następna wizyta miała być za 3 miesiące, pomyślała m, że zaoszczedzę i zapisała m się do DSK. Zaoszczędziła m pieniądze ale nie nerwy. Pan doktor był nieuprzejmy, dziecko (3 letnie) zbeształ, że kręci się na taboreciku, dodając, żeby nie psuło mu i tak złego dnia (!), mnie również zwrócił uwagę, nie słuchał moich sugestii, wyszła m tak bardzo zawiedziona jak jeszcze nigdy....."},"meta":{},"created_at":"2026-10-10T10:46:35.397289Z","updated_at":"2026-10-10T11:23:26.457606Z","allow_skip":true,"inner_id":9,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":10,"annotations":[{"id":11,"completed_by":1,"result":[{"value":{"start":298,"end":305,"text":"w ogóle","labels":["wzmocnienie"]},"id":"4vWCgq5G4Y","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":390,"end":396,"text":"bardzo","labels":["wzmocnienie"]},"id":"pj0_KiM2-B","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":725,"end":732,"text":"w ogóle","labels":["wzmocnienie"]},"id":"xXv1nkTBmb","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"swhy9e6gb-","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:25:21.005441Z","updated_at":"2026-10-10T11:25:21.005457Z","draft_created_at":"2026-10-10T11:24:12.497158Z","lead_time":105.476,"prediction":{},"result_count":4,"unique_id":"45576e0a-d1c1-4432-944e-cc29f290278a","import_id":null,"last_action":null,"bulk_created":false,"task":10,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"be5b523d-sample1.json","drafts":[],"predictions":[],"data":{"id":1468,"text":"Hotel odbiega standardem od innych hoteli pięciogwiazdkowych. Pokoje wykazują ślady zużycia (wyposażenie z lat bodajże 90 - tych). Obsługa hotelu nie reagowała na uwagi - w apartamencie był wszak telewizor w części wypoczynkowej, jednakże nie był podłączony do sieci! W pobliżu telewizora nie było w ogóle gniazda elektrycznego.... Na balkonie apartamentu umieszczono głośny agregat, który bardzo przeszkadza w wypoczynku. Śniadanie nie jest wliczone w cenę noclegu! Owoce w pokoju dodatkowo płatne - opłata makabrycznie wysoka, a i w momencie rozliczania pokoju naliczona podwójnie! W hotelu nie ma możliwości dokonania zapłaty gotówką w walucie, natomiast na miejscu nie ma kantoru wymiany walut. Na fakturze kurs walutowy w ogóle nie jest podawany, to jest niedopuszczalne! Atuty hotelu to położenie i uprzejmy management."},"meta":{},"created_at":"2026-10-10T10:46:35.397319Z","updated_at":"2026-10-10T11:25:21.023854Z","allow_skip":true,"inner_id":10,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":11,"annotations":[{"id":12,"completed_by":1,"result":[{"value":{"start":330,"end":333,"text":"Nic","labels":["negacja"]},"id":"m8jZ9tJe3_","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":361,"end":368,"text":"w pełni","labels":["wzmocnienie"]},"id":"mAfjDYuI27","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"P58rPsEC-_","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"},{"value":{"start":287,"end":290,"text":"Nie","labels":["negacja"]},"id":"LWjjEoX-g3","from_name":"spans","to_name":"text","type":"labels","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:52:37.290183Z","updated_at":"2026-10-10T11:52:37.290206Z","draft_created_at":"2026-10-10T11:51:13.527655Z","lead_time":149.483,"prediction":{},"result_count":4,"unique_id":"960de219-3685-4664-b7ac-6eeb01d9cfd9","import_id":null,"last_action":null,"bulk_created":false,"task":11,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":1436,"text":"Po raz kolejny zapewne będę się powtarzał, ale mogę sobie pozwolić na wybór i realizacje własnych upodobań (bliskich historii, przeszłości), tak że w sytuacjach gdy w podróży jest miejsce, po drodze mojej trasy, przypominające zamek \/ przeszłość, to właśnie tam wskazuje miejsce pobytu. Nie inaczej było z wyborem Hotelu Pałacyk. Nic do zarzucenia. Oczekiwania w pełni spełnione zostały. Pozdrowienia dla właścicieli i obsługi. Polecam."},"meta":{},"created_at":"2026-10-10T11:49:56.139917Z","updated_at":"2026-10-10T11:52:37.309237Z","allow_skip":true,"inner_id":11,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":12,"annotations":[{"id":13,"completed_by":1,"result":[{"value":{"start":947,"end":950,"text":"nie","labels":["negacja"]},"id":"hTnl7thQNc","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["zero"]},"id":"DBfdSNgevX","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:55:27.670200Z","updated_at":"2026-10-10T11:55:27.670214Z","draft_created_at":"2026-10-10T11:53:42.621123Z","lead_time":166.984,"prediction":{},"result_count":2,"unique_id":"9a0dac3b-22fb-4fb6-8fed-507b92f463e2","import_id":null,"last_action":null,"bulk_created":false,"task":12,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":1562,"text":"Wygląda więc na to, że wszystkie hotele sieciowe - wśród 16 baz pobytowych reprezentacji piłkarskich na Euro 2012 tylko wymienione 4 były hotelami wchodzącymi w skład międzynarodowych sieci - zostały „ wyeliminowane ” z turnieju po fazie grupowej rozgrywek. Czyżby oznaczało to, że komfortowe „ sieciówki ” atrakcyjnie zlokalizowane w centrach miast, mimo swych atutów, miały by zapewniać piłkarzom gorsze warunki do snu, wypoczynku i koncentracji, niż położne z dala od wielkomiejskiego zgiełku hotele niezależne? Czy może hotele „ postawiły ” po prostu na słabsze lub będące w gorszej dyspozycji drużyny? Nie. Wybór obiektów przez poszczególne reprezentacje był wypadkową lokalizacji, przedstawionej przez obiekty oferty (w tym cenowej) i indywidualnych preferencji wybierających, i w większym stopniu zależał od przedstawicieli reprezentacji, niż samych obiektów. W sporcie – co dobitnie pokazał też dotychczasowy przebieg turnieju Euro 2012 – nie ma 100 - proc. „ pewniaków ” i zarówno potencjalni liderzy, jak i potencjalne „ czarne konie ”, musieli ulec tym, którzy okazali się lepsi lub mieli więcej szczęścia."},"meta":{},"created_at":"2026-10-10T11:49:56.139966Z","updated_at":"2026-10-10T11:55:27.687718Z","allow_skip":true,"inner_id":12,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":13,"annotations":[{"id":14,"completed_by":1,"result":[{"value":{"start":158,"end":161,"text":"nie","labels":["negacja"]},"id":"59pbQM-3zk","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":257,"end":261,"text":"niby","labels":["oslabienie"]},"id":"du8gm6g6N7","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":373,"end":378,"text":"mocno","labels":["wzmocnienie"]},"id":"y2dgON2ZZJ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"uXGLrxwwPr","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T11:57:26.047392Z","updated_at":"2026-10-10T11:57:26.047411Z","draft_created_at":"2026-10-10T11:55:51.058538Z","lead_time":117.45,"prediction":{},"result_count":4,"unique_id":"98789d63-6c28-4234-8d09-4ab880f3f743","import_id":null,"last_action":null,"bulk_created":false,"task":13,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":4244,"text":"Hotel cztero gwiazdkowy który spełnia te wymogi tylko w minimalnym zakresie. Cześć pokoi (w tym pokój 149) ma widok na dach. ścianę i centrale wentylacyjna - nie można otworzyć okna gdyż hałas centrali jest dokuczliwy. Śniadanie - produkty słabej jakości - niby wszystkiego jest dużo - ale trudno coś zjeść ze smakiem, sala śniadaniowa szara, ponura. Obiekt w dużej części mocno wyeksploatowany"},"meta":{},"created_at":"2026-10-10T11:49:56.139995Z","updated_at":"2026-10-10T11:57:26.064467Z","allow_skip":true,"inner_id":13,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":14,"annotations":[{"id":15,"completed_by":1,"result":[{"value":{"start":116,"end":119,"text":"nie","labels":["negacja"]},"id":"5pUh-shltu","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":138,"end":141,"text":"nic","labels":["negacja"]},"id":"jOhKEmAMJe","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":143,"end":150,"text":"Żadnych","labels":["negacja"]},"id":"03nI1YeXVS","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":229,"end":233,"text":"Brak","labels":["negacja"]},"id":"P9JKuUygRI","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":364,"end":368,"text":"może","labels":["oslabienie"]},"id":"auXuTydDJz","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":370,"end":383,"text":"zdaje mi się,","labels":["oslabienie"]},"id":"yMDosyRp5b","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":384,"end":389,"text":"chyba","labels":["oslabienie"]},"id":"XvVbI2XaBU","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":401,"end":404,"text":"nie","labels":["negacja"]},"id":"huXjKIQ_4s","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":567,"end":570,"text":"nie","labels":["negacja"]},"id":"JJZh_Xap_L","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":588,"end":591,"text":"Nie","labels":["negacja"]},"id":"qTPVYYbGpk","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":628,"end":634,"text":"bardzo","labels":["wzmocnienie"]},"id":"3ezdxUqJXs","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["amb"]},"id":"H1d0IH1SYl","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"},{"value":{"start":660,"end":674,"text":"w mojej opinii","labels":["oslabienie"]},"id":"yV6lFRqLMB","from_name":"spans","to_name":"text","type":"labels","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:02:02.618939Z","updated_at":"2026-10-10T12:02:02.618951Z","draft_created_at":"2026-10-10T11:58:20.020258Z","lead_time":244.837,"prediction":{},"result_count":13,"unique_id":"bd3885cd-dc40-4aba-b768-10fcd12f8684","import_id":null,"last_action":null,"bulk_created":false,"task":14,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":6130,"text":"Cóż, u Pana Sankowskiego była m w klinice ORTHOS, mimo mojej ograniczonej ruchomości prawej ręki powiązanej z bólem nie dowiedziała m się nic. Żadnych konkretów, wizyta trwała niecałe 10 min. coś na zasadzie \" zapłać i spadaj \". Brak informacji o moim stanie, dopiero po naciskach z mojej strony i wyciąganiu informacji uzyskała m szczątkowe informacje w stylu, \" może, zdaje mi się, chyba,... itp. \" nie zostało zrobione żadne z podstawowych badań (USG, RTG) tylko na zasadzie oględzin zewnętrznych. Jedyne co dostała m to zalecenie wykonania rezonansu. Do tej pory nie wiem co mi jest. Nie chcę stawiać złej oceny bo Pan jest bardzo sympatyczny i miły, lecz w mojej opinii mało rzeczowy, może trafiła m na jeden ze złych dni doktora? Spróbuję jeszcze raz jak zrobię rezonans i wtedy zweryfikuję swoją ocenę."},"meta":{},"created_at":"2026-10-10T11:49:56.140025Z","updated_at":"2026-10-10T12:02:02.637018Z","allow_skip":true,"inner_id":14,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":15,"annotations":[{"id":16,"completed_by":1,"result":[{"value":{"start":68,"end":78,"text":"daleko od ","labels":["negacja"]},"id":"-0YCiwcVWQ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":128,"end":142,"text":"nieskazitelnie","labels":["wzmocnienie"]},"id":"Y4XV1aDeCQ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":291,"end":298,"text":"W sumie","labels":["oslabienie"]},"id":"lEo0pLZ76m","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["amb"]},"id":"zQ4EeR5Ham","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:03:49.215772Z","updated_at":"2026-10-10T12:03:49.215787Z","draft_created_at":"2026-10-10T12:02:24.670964Z","lead_time":102.739,"prediction":{},"result_count":4,"unique_id":"2ccce6c3-5dbb-41f0-99e7-9c6765c17850","import_id":null,"last_action":null,"bulk_created":false,"task":15,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":1377,"text":"Spędzili śmy dwie noce w starym skrzydle hotelu. Wystrój pokoi jest daleko od współczesnego. To pochodzi od sevenites. Ale były nieskazitelnie czyste. Łazienka odnowiona tylko meble przywróciły wspomnienia dzieciństwa. Śniadanie jest syte, kolacja również. Personel jest uprzejmy i pomocny. W sumie to było warte swojej ceny."},"meta":{},"created_at":"2026-10-10T11:49:56.140052Z","updated_at":"2026-10-10T12:03:49.233455Z","allow_skip":true,"inner_id":15,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":16,"annotations":[{"id":17,"completed_by":1,"result":[{"value":{"start":46,"end":52,"text":"bardzo","labels":["wzmocnienie"]},"id":"Ql4J9ToyiQ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":85,"end":91,"text":"bardzo","labels":["wzmocnienie"]},"id":"X95bh_Jx3-","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":98,"end":104,"text":"Bardzo","labels":["wzmocnienie"]},"id":"SWc0TnI7SJ","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":242,"end":261,"text":"z czystym sumieniem","labels":["wzmocnienie"]},"id":"7sPw8owSAk","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":378,"end":384,"text":"Bardzo","labels":["wzmocnienie"]},"id":"4_MQV7-8Cp","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":466,"end":470,"text":"dość","labels":["oslabienie"]},"id":"SEDJTEGkai","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":508,"end":515,"text":"troszkę","labels":["oslabienie"]},"id":"h_JZtOUz1k","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":527,"end":540,"text":"bizantyjskich","labels":["wzmocnienie"]},"id":"FK0R7_GoFm","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"x379Jq7Edd","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:05:47.736570Z","updated_at":"2026-10-10T12:05:47.736592Z","draft_created_at":"2026-10-10T12:04:00.207252Z","lead_time":117.475,"prediction":{},"result_count":9,"unique_id":"4bbf2103-1890-41b2-b110-7a13fa00075e","import_id":null,"last_action":null,"bulk_created":false,"task":16,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":4242,"text":"Hotel w pełni zasługuje na 4 gwiazdki. Pokoje bardzo czyste, obsługa profesjonalna i bardzo miła. Bardzo dobre i obfite śniadania. Różne opinie krążą na forach internetowych na temat obiadokolacji w tym hotelu. Ja jestem z zawodu kucharzem i z czystym sumieniem je polecam. Ryby, mięsa, kuchnia lokalna, codziennie coś innego. A na deser ciasta wypiekane na miejscu, rewelacja. Bardzo zadbana i rozbudowana infrastruktura rekreacyjna na czele z basenami. Hotel jest dość duży więc do niektórych pokoi trzeba troszkę iść ale po bizantyjskich posiłkach jest to nawet wskazane. Do centrum 20 min. spacerkiem a po drodze bacówka i jeszcze ciepłe \" redykołki \" prosto z wędzarni. Polecam"},"meta":{},"created_at":"2026-10-10T11:49:56.140080Z","updated_at":"2026-10-10T12:05:47.754669Z","allow_skip":true,"inner_id":16,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":17,"annotations":[{"id":18,"completed_by":1,"result":[{"value":{"start":427,"end":433,"text":"pewnym","labels":["oslabienie"]},"id":"rmu7GDrS_V","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["zero"]},"id":"jFl_94Um4w","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:06:26.435348Z","updated_at":"2026-10-10T12:06:26.435361Z","draft_created_at":"2026-10-10T12:06:20.682216Z","lead_time":36.888,"prediction":{},"result_count":2,"unique_id":"b5b6e830-fd12-4e4a-9d8b-2ab2b564eecc","import_id":null,"last_action":null,"bulk_created":false,"task":17,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":843,"text":"Badania te pokazały, że ekologiczne mleko i mięso, zawierają o ok. 50 proc. więcej korzystnych kwasów tłuszczowych omega - 3 niż produkty wytwarzane konwencjonalnie. Mleko i mięso ekologiczne korzystniej wypadają też, jeśli chodzi o zawartość niektórych składników mineralnych i przeciwutleniaczy. Naukowcy zwracają uwagę, że zastąpienie konwencjonalnego mleka i mięsa w codziennej diecie produktami ekologicznymi, wiąże się w pewnym stopniu ze zwiększeniem spożycia ważnych dla zdrowia kwasów tłuszczowych. Badania ukazały się w czasopiśmie \" British Journal of Nutrition \". Autorką korespondencyjną badań jest dr inż. Dominika Średnicka - Tober z Wydziału Nauk o Żywieniu Człowieka i Konsumpcji SGGW. O wynikach badań poinformował w przesłanym PAP komunikacie rzecznik Szkoły Głównej Gospodarstwa Wiejskiego Krzysztof Szwejk."},"meta":{},"created_at":"2026-10-10T11:49:56.140109Z","updated_at":"2026-10-10T12:06:26.448162Z","allow_skip":true,"inner_id":17,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":18,"annotations":[{"id":19,"completed_by":1,"result":[{"value":{"start":67,"end":86,"text":"Według mojej opinii","labels":["oslabienie"]},"id":"01tDZL8Lh4","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":92,"end":100,"text":"wybitnym","labels":["oslabienie"]},"id":"oFkBZqZr2c","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":801,"end":808,"text":"żadnych","labels":["negacja"]},"id":"8H47cAh-mj","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":788,"end":791,"text":"nie","labels":["negacja"]},"id":"YWK6XlkO_W","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":915,"end":916,"text":"i","labels":["negacja"]},"id":"k9ZdRrisLm","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["plus_m"]},"id":"HswPj9Gy58","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:07:59.617579Z","updated_at":"2026-10-10T12:07:59.617600Z","draft_created_at":"2026-10-10T12:06:50.294102Z","lead_time":92.299,"prediction":{},"result_count":6,"unique_id":"e953b906-b384-4571-b735-99efe46e496b","import_id":null,"last_action":null,"bulk_created":false,"task":18,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":801,"text":"Pan Dr Jaroslaw Cywiński \" zaopiekował \" się mną z 7 - 8 lat temu. Według mojej opinii jest wybitnym specjalistą proktologiem i wspanialym miłym i serdecznym człowiekiem. Pan dr J. Cywiński w Szpitalu im. Pirogowa w Łodzi usunął mi polipy z odbytu. O terminie zabiegu uzależnionym od miejsca w szpitalu został em powiadomiony telefonicznie. Zabiegi operacyjne były zawsze poprzedzone wszechstronnymi i szczegółowymi badaniami i dokładnie mi opisane (a nawet zilustrowane z pomocą kolorowej planszy wiszącej na ścianie w gabinecie). Po operacji w okresie rekonwalescencji w domu mogł em drogą telefoniczną uzyskać konsultacje i odpowiedzi na wszystkie pytania dotyczące zmiany opatrunków itp, a następnie już przychodził em na badania kontrolne do \" MEDAX-u \". Od wielu już lat (odpukać!) nie odczuwam żadnych dolegliwości, a przechodząc ul. Zieloną z sentymentem i wdzięcznością wspominam Pana Doktora Jarosława Cywińskiego, jego życzliwość, rzeczowość i... stukot klawiszy jego maszyny do pisania. A myśląc o tych nieprzebranych tłumach kłębiących się na korytarzu pod gabinetem wierzę, że wśród nich jest ogromna rzesza wdzięcznych za okazane serce i fachową pomoc pacjentów. (tsd)"},"meta":{},"created_at":"2026-10-10T11:49:56.140139Z","updated_at":"2026-10-10T12:07:59.630109Z","allow_skip":true,"inner_id":18,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":19,"annotations":[{"id":20,"completed_by":1,"result":[{"value":{"start":0,"end":3,"text":"Nie","labels":["negacja"]},"id":"PGlnhF3L00","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":72,"end":75,"text":"nie","labels":["negacja"]},"id":"lzc5IwA9Cb","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":181,"end":187,"text":"bardzo","labels":["wzmocnienie"]},"id":"C8Xfog2R5i","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":229,"end":235,"text":"bardzo","labels":["wzmocnienie"]},"id":"Cm4Mfhv0SN","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":246,"end":249,"text":"bez","labels":["negacja"]},"id":"YDxDGvErs_","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":282,"end":285,"text":"nie","labels":["negacja"]},"id":"VDRx0eXyE-","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":361,"end":368,"text":"wielkim","labels":["wzmocnienie"]},"id":"VBJUEVoMBF","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":412,"end":417,"text":"nigdy","labels":["negacja"]},"id":"W6hFqaRNZc","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":428,"end":431,"text":"nie","labels":["negacja"]},"id":"dKMrLRJEt9","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":458,"end":461,"text":"nie","labels":["negacja"]},"id":"NPeSoss3-s","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["minus_m"]},"id":"rUPk50dAjN","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:09:44.965017Z","updated_at":"2026-10-10T12:09:44.965028Z","draft_created_at":"2026-10-10T12:08:47.241508Z","lead_time":73.589,"prediction":{},"result_count":11,"unique_id":"de6a039b-e952-4658-917a-f24f170435d3","import_id":null,"last_action":null,"bulk_created":false,"task":19,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":3136,"text":"Nie wybierajcie się najgorsze wakacje jakie miałem hotel obskurny łóżka nie wygodne z dziurami i prześcieradła również ręczniki zmieniają co 3 dni sprzątaczka sprząta co 3 dni i to bardzo słabo woda w basenie lodowata łazienka z bardzo słaba lub bez wentylacji morze daleko napewno nie było 400m do plazy ludzie rezerwują sobie leżaki o 6 rano ci było dla mnie wielkim zaskoczeniem podróżuje dużo i po świecie i nigdy się z tym nie spotkał em słyszał em ale nie widział em tego aż do tego hotelu ogólnie bardzo jesteśmy rozczarowani"},"meta":{},"created_at":"2026-10-10T11:49:56.140168Z","updated_at":"2026-10-10T12:09:44.978531Z","allow_skip":true,"inner_id":19,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]},{"id":20,"annotations":[{"id":21,"completed_by":1,"result":[{"value":{"start":32,"end":36,"text":"maly","labels":["oslabienie"]},"id":"yfdBVVT99S","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":112,"end":118,"text":"trochę","labels":["oslabienie"]},"id":"Unb5oVhI4b","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":289,"end":293,"text":"może","labels":["oslabienie"]},"id":"n2t369zrtp","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":327,"end":330,"text":"nie","labels":["negacja"]},"id":"RazxQMEQ3f","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"start":575,"end":578,"text":"nie","labels":["negacja"]},"id":"IKezNCI4WR","from_name":"spans","to_name":"text","type":"labels","origin":"manual"},{"value":{"choices":["amb"]},"id":"DsVt46Gfe_","from_name":"sentiment","to_name":"text","type":"choices","origin":"manual"}],"was_cancelled":false,"ground_truth":false,"created_at":"2026-10-10T12:11:04.040401Z","updated_at":"2026-10-10T12:11:04.040423Z","draft_created_at":"2026-10-10T12:09:58.600459Z","lead_time":75.372,"prediction":{},"result_count":6,"unique_id":"60b6dd0a-5931-45b0-8477-6f4efb6a8251","import_id":null,"last_action":null,"bulk_created":false,"task":20,"project":6,"updated_by":1,"parent_prediction":null,"parent_annotation":null,"last_created_by":null}],"file_upload":"e50081a8-sample2.json","drafts":[],"predictions":[],"data":{"id":2548,"text":"ogólnie położenie hotelu super, maly minus że trzeba iść stromo pod górę od ulicy, piękna plaża choć kamienista trochę piachu się też znajdzie. obsługa hotelu miła i pomocna.jedyny minus to łazienki ale wiem że w tą zimę ma być generalny remont ich i będa super. dobre jedzenie, monotonne może i tak jak to greckie jedzenie to nie egipt i 5 gwiazdek hotel. super miejsce jak chce sie pozwiedzać blisko plaża vai, spinalonga super wycieczka polecam. centrum miasta piechotką 30minut, a po drodze ładne widoki i dużo sklepów. kameralny hotel dla osób ceniących ciszę i spokój. nie ma tam imprez, tylko w mieście."},"meta":{},"created_at":"2026-10-10T11:49:56.140197Z","updated_at":"2026-10-10T12:11:04.060126Z","allow_skip":true,"inner_id":20,"total_annotations":1,"cancelled_annotations":0,"total_predictions":0,"comment_count":0,"unresolved_comment_count":0,"last_comment_updated_at":null,"project":6,"updated_by":1,"comment_authors":[]}]
+[
+  {
+    "id": 11,
+    "annotations": [
+      {
+        "id": 12,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 330,
+              "end": 333,
+              "text": "Nic",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "m8jZ9tJe3_",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 361,
+              "end": 368,
+              "text": "w pełni",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "mAfjDYuI27",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "plus_m"
+              ]
+            },
+            "id": "P58rPsEC-_",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 287,
+              "end": 290,
+              "text": "Nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "LWjjEoX-g3",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T11:52:37.290183Z",
+        "updated_at": "2026-10-10T11:52:37.290206Z",
+        "draft_created_at": "2026-10-10T11:51:13.527655Z",
+        "lead_time": 149.483,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "960de219-3685-4664-b7ac-6eeb01d9cfd9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 11,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 1436,
+      "text": "Po raz kolejny zapewne będę się powtarzał, ale mogę sobie pozwolić na wybór i realizacje własnych upodobań (bliskich historii, przeszłości), tak że w sytuacjach gdy w podróży jest miejsce, po drodze mojej trasy, przypominające zamek / przeszłość, to właśnie tam wskazuje miejsce pobytu. Nie inaczej było z wyborem Hotelu Pałacyk. Nic do zarzucenia. Oczekiwania w pełni spełnione zostały. Pozdrowienia dla właścicieli i obsługi. Polecam."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.139917Z",
+    "updated_at": "2026-10-10T11:52:37.309237Z",
+    "allow_skip": true,
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 12,
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 947,
+              "end": 950,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "hTnl7thQNc",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "zero"
+              ]
+            },
+            "id": "DBfdSNgevX",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T11:55:27.670200Z",
+        "updated_at": "2026-10-10T11:55:27.670214Z",
+        "draft_created_at": "2026-10-10T11:53:42.621123Z",
+        "lead_time": 166.984,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "9a0dac3b-22fb-4fb6-8fed-507b92f463e2",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 12,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 1562,
+      "text": "Wygląda więc na to, że wszystkie hotele sieciowe - wśród 16 baz pobytowych reprezentacji piłkarskich na Euro 2012 tylko wymienione 4 były hotelami wchodzącymi w skład międzynarodowych sieci - zostały „ wyeliminowane ” z turnieju po fazie grupowej rozgrywek. Czyżby oznaczało to, że komfortowe „ sieciówki ” atrakcyjnie zlokalizowane w centrach miast, mimo swych atutów, miały by zapewniać piłkarzom gorsze warunki do snu, wypoczynku i koncentracji, niż położne z dala od wielkomiejskiego zgiełku hotele niezależne? Czy może hotele „ postawiły ” po prostu na słabsze lub będące w gorszej dyspozycji drużyny? Nie. Wybór obiektów przez poszczególne reprezentacje był wypadkową lokalizacji, przedstawionej przez obiekty oferty (w tym cenowej) i indywidualnych preferencji wybierających, i w większym stopniu zależał od przedstawicieli reprezentacji, niż samych obiektów. W sporcie – co dobitnie pokazał też dotychczasowy przebieg turnieju Euro 2012 – nie ma 100 - proc. „ pewniaków ” i zarówno potencjalni liderzy, jak i potencjalne „ czarne konie ”, musieli ulec tym, którzy okazali się lepsi lub mieli więcej szczęścia."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.139966Z",
+    "updated_at": "2026-10-10T11:55:27.687718Z",
+    "allow_skip": true,
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 13,
+    "annotations": [
+      {
+        "id": 14,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 158,
+              "end": 161,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "59pbQM-3zk",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 257,
+              "end": 261,
+              "text": "niby",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "du8gm6g6N7",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 373,
+              "end": 378,
+              "text": "mocno",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "y2dgON2ZZJ",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "minus_m"
+              ]
+            },
+            "id": "uXGLrxwwPr",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T11:57:26.047392Z",
+        "updated_at": "2026-10-10T11:57:26.047411Z",
+        "draft_created_at": "2026-10-10T11:55:51.058538Z",
+        "lead_time": 117.45,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "98789d63-6c28-4234-8d09-4ab880f3f743",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 13,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 4244,
+      "text": "Hotel cztero gwiazdkowy który spełnia te wymogi tylko w minimalnym zakresie. Cześć pokoi (w tym pokój 149) ma widok na dach. ścianę i centrale wentylacyjna - nie można otworzyć okna gdyż hałas centrali jest dokuczliwy. Śniadanie - produkty słabej jakości - niby wszystkiego jest dużo - ale trudno coś zjeść ze smakiem, sala śniadaniowa szara, ponura. Obiekt w dużej części mocno wyeksploatowany"
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.139995Z",
+    "updated_at": "2026-10-10T11:57:26.064467Z",
+    "allow_skip": true,
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 14,
+    "annotations": [
+      {
+        "id": 15,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 116,
+              "end": 119,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "5pUh-shltu",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 138,
+              "end": 141,
+              "text": "nic",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "jOhKEmAMJe",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 143,
+              "end": 150,
+              "text": "Żadnych",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "03nI1YeXVS",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 229,
+              "end": 233,
+              "text": "Brak",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "P9JKuUygRI",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 364,
+              "end": 368,
+              "text": "może",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "auXuTydDJz",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 370,
+              "end": 383,
+              "text": "zdaje mi się,",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "yMDosyRp5b",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 384,
+              "end": 389,
+              "text": "chyba",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "XvVbI2XaBU",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 401,
+              "end": 404,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "huXjKIQ_4s",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 567,
+              "end": 570,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "JJZh_Xap_L",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 588,
+              "end": 591,
+              "text": "Nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "qTPVYYbGpk",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 628,
+              "end": 634,
+              "text": "bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "3ezdxUqJXs",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "amb"
+              ]
+            },
+            "id": "H1d0IH1SYl",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 660,
+              "end": 674,
+              "text": "w mojej opinii",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "yV6lFRqLMB",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:02:02.618939Z",
+        "updated_at": "2026-10-10T12:02:02.618951Z",
+        "draft_created_at": "2026-10-10T11:58:20.020258Z",
+        "lead_time": 244.837,
+        "prediction": {},
+        "result_count": 13,
+        "unique_id": "bd3885cd-dc40-4aba-b768-10fcd12f8684",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 14,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 6130,
+      "text": "Cóż, u Pana Sankowskiego była m w klinice ORTHOS, mimo mojej ograniczonej ruchomości prawej ręki powiązanej z bólem nie dowiedziała m się nic. Żadnych konkretów, wizyta trwała niecałe 10 min. coś na zasadzie \" zapłać i spadaj \". Brak informacji o moim stanie, dopiero po naciskach z mojej strony i wyciąganiu informacji uzyskała m szczątkowe informacje w stylu, \" może, zdaje mi się, chyba,... itp. \" nie zostało zrobione żadne z podstawowych badań (USG, RTG) tylko na zasadzie oględzin zewnętrznych. Jedyne co dostała m to zalecenie wykonania rezonansu. Do tej pory nie wiem co mi jest. Nie chcę stawiać złej oceny bo Pan jest bardzo sympatyczny i miły, lecz w mojej opinii mało rzeczowy, może trafiła m na jeden ze złych dni doktora? Spróbuję jeszcze raz jak zrobię rezonans i wtedy zweryfikuję swoją ocenę."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140025Z",
+    "updated_at": "2026-10-10T12:02:02.637018Z",
+    "allow_skip": true,
+    "inner_id": 14,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 15,
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 68,
+              "end": 78,
+              "text": "daleko od ",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "-0YCiwcVWQ",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 128,
+              "end": 142,
+              "text": "nieskazitelnie",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "Y4XV1aDeCQ",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 291,
+              "end": 298,
+              "text": "W sumie",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "lEo0pLZ76m",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "amb"
+              ]
+            },
+            "id": "zQ4EeR5Ham",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:03:49.215772Z",
+        "updated_at": "2026-10-10T12:03:49.215787Z",
+        "draft_created_at": "2026-10-10T12:02:24.670964Z",
+        "lead_time": 102.739,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "2ccce6c3-5dbb-41f0-99e7-9c6765c17850",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 15,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 1377,
+      "text": "Spędzili śmy dwie noce w starym skrzydle hotelu. Wystrój pokoi jest daleko od współczesnego. To pochodzi od sevenites. Ale były nieskazitelnie czyste. Łazienka odnowiona tylko meble przywróciły wspomnienia dzieciństwa. Śniadanie jest syte, kolacja również. Personel jest uprzejmy i pomocny. W sumie to było warte swojej ceny."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140052Z",
+    "updated_at": "2026-10-10T12:03:49.233455Z",
+    "allow_skip": true,
+    "inner_id": 15,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 16,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 46,
+              "end": 52,
+              "text": "bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "Ql4J9ToyiQ",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 85,
+              "end": 91,
+              "text": "bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "X95bh_Jx3-",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 98,
+              "end": 104,
+              "text": "Bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "SWc0TnI7SJ",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 242,
+              "end": 261,
+              "text": "z czystym sumieniem",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "7sPw8owSAk",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 378,
+              "end": 384,
+              "text": "Bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "4_MQV7-8Cp",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 466,
+              "end": 470,
+              "text": "dość",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "SEDJTEGkai",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 508,
+              "end": 515,
+              "text": "troszkę",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "h_JZtOUz1k",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 527,
+              "end": 540,
+              "text": "bizantyjskich",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "FK0R7_GoFm",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "plus_m"
+              ]
+            },
+            "id": "x379Jq7Edd",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:05:47.736570Z",
+        "updated_at": "2026-10-10T12:05:47.736592Z",
+        "draft_created_at": "2026-10-10T12:04:00.207252Z",
+        "lead_time": 117.475,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "4bbf2103-1890-41b2-b110-7a13fa00075e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 16,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 4242,
+      "text": "Hotel w pełni zasługuje na 4 gwiazdki. Pokoje bardzo czyste, obsługa profesjonalna i bardzo miła. Bardzo dobre i obfite śniadania. Różne opinie krążą na forach internetowych na temat obiadokolacji w tym hotelu. Ja jestem z zawodu kucharzem i z czystym sumieniem je polecam. Ryby, mięsa, kuchnia lokalna, codziennie coś innego. A na deser ciasta wypiekane na miejscu, rewelacja. Bardzo zadbana i rozbudowana infrastruktura rekreacyjna na czele z basenami. Hotel jest dość duży więc do niektórych pokoi trzeba troszkę iść ale po bizantyjskich posiłkach jest to nawet wskazane. Do centrum 20 min. spacerkiem a po drodze bacówka i jeszcze ciepłe \" redykołki \" prosto z wędzarni. Polecam"
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140080Z",
+    "updated_at": "2026-10-10T12:05:47.754669Z",
+    "allow_skip": true,
+    "inner_id": 16,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 18,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 427,
+              "end": 433,
+              "text": "pewnym",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "rmu7GDrS_V",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "zero"
+              ]
+            },
+            "id": "jFl_94Um4w",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:06:26.435348Z",
+        "updated_at": "2026-10-10T12:06:26.435361Z",
+        "draft_created_at": "2026-10-10T12:06:20.682216Z",
+        "lead_time": 36.888,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "b5b6e830-fd12-4e4a-9d8b-2ab2b564eecc",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 17,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 843,
+      "text": "Badania te pokazały, że ekologiczne mleko i mięso, zawierają o ok. 50 proc. więcej korzystnych kwasów tłuszczowych omega - 3 niż produkty wytwarzane konwencjonalnie. Mleko i mięso ekologiczne korzystniej wypadają też, jeśli chodzi o zawartość niektórych składników mineralnych i przeciwutleniaczy. Naukowcy zwracają uwagę, że zastąpienie konwencjonalnego mleka i mięsa w codziennej diecie produktami ekologicznymi, wiąże się w pewnym stopniu ze zwiększeniem spożycia ważnych dla zdrowia kwasów tłuszczowych. Badania ukazały się w czasopiśmie \" British Journal of Nutrition \". Autorką korespondencyjną badań jest dr inż. Dominika Średnicka - Tober z Wydziału Nauk o Żywieniu Człowieka i Konsumpcji SGGW. O wynikach badań poinformował w przesłanym PAP komunikacie rzecznik Szkoły Głównej Gospodarstwa Wiejskiego Krzysztof Szwejk."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140109Z",
+    "updated_at": "2026-10-10T12:06:26.448162Z",
+    "allow_skip": true,
+    "inner_id": 17,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 18,
+    "annotations": [
+      {
+        "id": 19,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 67,
+              "end": 86,
+              "text": "Według mojej opinii",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "01tDZL8Lh4",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 92,
+              "end": 100,
+              "text": "wybitnym",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "oFkBZqZr2c",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 801,
+              "end": 808,
+              "text": "żadnych",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "8H47cAh-mj",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 788,
+              "end": 791,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "YWK6XlkO_W",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 915,
+              "end": 916,
+              "text": "i",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "k9ZdRrisLm",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "plus_m"
+              ]
+            },
+            "id": "HswPj9Gy58",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:07:59.617579Z",
+        "updated_at": "2026-10-10T12:07:59.617600Z",
+        "draft_created_at": "2026-10-10T12:06:50.294102Z",
+        "lead_time": 92.299,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "e953b906-b384-4571-b735-99efe46e496b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 18,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 801,
+      "text": "Pan Dr Jaroslaw Cywiński \" zaopiekował \" się mną z 7 - 8 lat temu. Według mojej opinii jest wybitnym specjalistą proktologiem i wspanialym miłym i serdecznym człowiekiem. Pan dr J. Cywiński w Szpitalu im. Pirogowa w Łodzi usunął mi polipy z odbytu. O terminie zabiegu uzależnionym od miejsca w szpitalu został em powiadomiony telefonicznie. Zabiegi operacyjne były zawsze poprzedzone wszechstronnymi i szczegółowymi badaniami i dokładnie mi opisane (a nawet zilustrowane z pomocą kolorowej planszy wiszącej na ścianie w gabinecie). Po operacji w okresie rekonwalescencji w domu mogł em drogą telefoniczną uzyskać konsultacje i odpowiedzi na wszystkie pytania dotyczące zmiany opatrunków itp, a następnie już przychodził em na badania kontrolne do \" MEDAX-u \". Od wielu już lat (odpukać!) nie odczuwam żadnych dolegliwości, a przechodząc ul. Zieloną z sentymentem i wdzięcznością wspominam Pana Doktora Jarosława Cywińskiego, jego życzliwość, rzeczowość i... stukot klawiszy jego maszyny do pisania. A myśląc o tych nieprzebranych tłumach kłębiących się na korytarzu pod gabinetem wierzę, że wśród nich jest ogromna rzesza wdzięcznych za okazane serce i fachową pomoc pacjentów. (tsd)"
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140139Z",
+    "updated_at": "2026-10-10T12:07:59.630109Z",
+    "allow_skip": true,
+    "inner_id": 18,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 19,
+    "annotations": [
+      {
+        "id": 20,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 3,
+              "text": "Nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "PGlnhF3L00",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 72,
+              "end": 75,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "lzc5IwA9Cb",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 181,
+              "end": 187,
+              "text": "bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "C8Xfog2R5i",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 229,
+              "end": 235,
+              "text": "bardzo",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "Cm4Mfhv0SN",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 246,
+              "end": 249,
+              "text": "bez",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "YDxDGvErs_",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 282,
+              "end": 285,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "VDRx0eXyE-",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 361,
+              "end": 368,
+              "text": "wielkim",
+              "labels": [
+                "wzmocnienie"
+              ]
+            },
+            "id": "VBJUEVoMBF",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 412,
+              "end": 417,
+              "text": "nigdy",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "W6hFqaRNZc",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 428,
+              "end": 431,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "dKMrLRJEt9",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 458,
+              "end": 461,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "NPeSoss3-s",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "minus_m"
+              ]
+            },
+            "id": "rUPk50dAjN",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:09:44.965017Z",
+        "updated_at": "2026-10-10T12:09:44.965028Z",
+        "draft_created_at": "2026-10-10T12:08:47.241508Z",
+        "lead_time": 73.589,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "de6a039b-e952-4658-917a-f24f170435d3",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 19,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 3136,
+      "text": "Nie wybierajcie się najgorsze wakacje jakie miałem hotel obskurny łóżka nie wygodne z dziurami i prześcieradła również ręczniki zmieniają co 3 dni sprzątaczka sprząta co 3 dni i to bardzo słabo woda w basenie lodowata łazienka z bardzo słaba lub bez wentylacji morze daleko napewno nie było 400m do plazy ludzie rezerwują sobie leżaki o 6 rano ci było dla mnie wielkim zaskoczeniem podróżuje dużo i po świecie i nigdy się z tym nie spotkał em słyszał em ale nie widział em tego aż do tego hotelu ogólnie bardzo jesteśmy rozczarowani"
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140168Z",
+    "updated_at": "2026-10-10T12:09:44.978531Z",
+    "allow_skip": true,
+    "inner_id": 19,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 20,
+    "annotations": [
+      {
+        "id": 21,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": 32,
+              "end": 36,
+              "text": "maly",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "yfdBVVT99S",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 112,
+              "end": 118,
+              "text": "trochę",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "Unb5oVhI4b",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 289,
+              "end": 293,
+              "text": "może",
+              "labels": [
+                "oslabienie"
+              ]
+            },
+            "id": "n2t369zrtp",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 327,
+              "end": 330,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "RazxQMEQ3f",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": 575,
+              "end": 578,
+              "text": "nie",
+              "labels": [
+                "negacja"
+              ]
+            },
+            "id": "IKezNCI4WR",
+            "from_name": "spans",
+            "to_name": "text",
+            "type": "labels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "choices": [
+                "amb"
+              ]
+            },
+            "id": "DsVt46Gfe_",
+            "from_name": "sentiment",
+            "to_name": "text",
+            "type": "choices",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-10-10T12:11:04.040401Z",
+        "updated_at": "2026-10-10T12:11:04.040423Z",
+        "draft_created_at": "2026-10-10T12:09:58.600459Z",
+        "lead_time": 75.372,
+        "prediction": {},
+        "result_count": 6,
+        "unique_id": "60b6dd0a-5931-45b0-8477-6f4efb6a8251",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 20,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "e50081a8-sample2.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "id": 2548,
+      "text": "ogólnie położenie hotelu super, maly minus że trzeba iść stromo pod górę od ulicy, piękna plaża choć kamienista trochę piachu się też znajdzie. obsługa hotelu miła i pomocna.jedyny minus to łazienki ale wiem że w tą zimę ma być generalny remont ich i będa super. dobre jedzenie, monotonne może i tak jak to greckie jedzenie to nie egipt i 5 gwiazdek hotel. super miejsce jak chce sie pozwiedzać blisko plaża vai, spinalonga super wycieczka polecam. centrum miasta piechotką 30minut, a po drodze ładne widoki i dużo sklepów. kameralny hotel dla osób ceniących ciszę i spokój. nie ma tam imprez, tylko w mieście."
+    },
+    "meta": {},
+    "created_at": "2026-10-10T11:49:56.140197Z",
+    "updated_at": "2026-10-10T12:11:04.060126Z",
+    "allow_skip": true,
+    "inner_id": 20,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 6,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]
