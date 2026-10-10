@@ -1,0 +1,68 @@
+<h1>Wytyczne anotacji v1 (PolEmo – opinie)</h1>
+
+<h2>Zasady ogólne</h2>
+<ul>
+  <li>Anotujesz <strong>samodzielnie</strong>. Nie konsultuj etykiet z innymi anotatorami do końca iteracji.</li>
+  <li>Czytaj cały tekst, zanim cokolwiek zaznaczysz.</li>
+  <li>Oceniasz <strong>opinię autora</strong>, nie własne zdanie o produkcie, lekarzu czy hotelu.</li>
+  <li>Przy wątpliwości wybierz etykietę, która najlepiej oddaje <strong>ogólne wrażenie</strong> autora. Zapisz numer tekstu i krótką uwagę do omówienia po iteracji.</li>
+  <li>Nie szukaj w internecie ani nie sprawdzaj oryginalnych etykiet korpusu.</li>
+</ul>
+
+<h2>Zadanie 1: wydźwięk całego tekstu</h2>
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr><th>Etykieta</th><th>Kiedy</th></tr>
+  <tr><td><code>plus_m</code></td><td>Autor ogólnie chwali lub poleca. Brak istotnej krytyki.</td></tr>
+  <tr><td><code>minus_m</code></td><td>Autor ogólnie krytykuje lub odradza. Brak istotnej pochwały.</td></tr>
+  <tr><td><code>zero</code></td><td>Tekst opisuje fakty lub nie wyraża oceny.</td></tr>
+  <tr><td><code>amb</code></td><td>Są wyraźne pozytywy <strong>i</strong> negatywy, żadne nie dominuje.</td></tr>
+</table>
+
+<p>Przykłady:</p>
+<ul>
+  <li>„Pokój czysty, obsługa miła, na pewno wrócimy." → <code>plus_m</code></li>
+  <li>„Brud, hałas, nie polecam nikomu." → <code>minus_m</code></li>
+  <li>„Hotel ma 50 pokoi i basen." → <code>zero</code></li>
+  <li>„Jedzenie świetne, ale obsługa fatalna." → <code>amb</code></li>
+</ul>
+
+<p>Przypadki graniczne:</p>
+<ul>
+  <li>Jedna drobna uwaga w pochwalnej opinii („trochę drogo, ale wszystko super") → <code>plus_m</code>.</li>
+  <li>Ironia: oceniaj intencję autora, nie dosłowne znaczenie.</li>
+  <li>Pytania i ogólniki bez oceny → <code>zero</code>.</li>
+</ul>
+
+<h2>Zadanie 2: fragmenty tekstu</h2>
+<p>Zaznaczaj <strong>całe słowa</strong>, bez interpunkcji. Zaznaczaj najkrótszy sensowny fragment. Zaznaczenia się nie nakładają.</p>
+
+<h3>Modyfikatory</h3>
+<p>Słowo zmieniające siłę lub kierunek oceny. Zaznacz <strong>tylko to słowo</strong>, a nie słowo, które modyfikuje.</p>
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr><th>Etykieta</th><th>Kiedy</th><th>Przykłady</th></tr>
+  <tr><td><code>wzmocnienie</code></td><td>Zwiększa siłę oceny.</td><td>bardzo, wyjątkowo, totalnie</td></tr>
+  <tr><td><code>oslabienie</code></td><td>Zmniejsza siłę oceny.</td><td>trochę, raczej, dość</td></tr>
+  <tr><td><code>negacja</code></td><td>Odwraca polaryzację.</td><td>nie, bez, żadnej</td></tr>
+</table>
+
+<p>Przykład: „Obsługa była <strong>bardzo</strong> miła, a pokój <strong>nie</strong> był czysty."</p>
+<ul>
+  <li>bardzo → <code>wzmocnienie</code></li>
+  <li>nie → <code>negacja</code></li>
+</ul>
+
+<p>Zasady:</p>
+<ul>
+  <li>Zaznaczaj tylko oczywiste modyfikatory. W razie wątpliwości pomiń i zapisz uwagę.</li>
+  <li>Fraza kilkuwyrazowa tylko wtedy, gdy jest ustalonym modyfikatorem („wcale nie", „w ogóle").</li>
+  <li>Słowo samo niosące ocenę („idealne", „brak") nie jest modyfikatorem.</li>
+</ul>
+
+<h2>Procedura</h2>
+<ol>
+  <li>Otwórz swój projekt w Label Studio i anotuj teksty po kolei.</li>
+  <li>Dla każdego tekstu: najpierw fragmenty, potem etykieta całego tekstu.</li>
+  <li>Zapisz uwagi o trudnych przypadkach.</li>
+  <li>Po zakończeniu wyeksportuj dane (JSON) i przekaż je do liczenia zgodności.</li>
+  <li>Po obliczeniu zgodności spotykamy się, omawiamy rozbieżności i tworzymy wytyczne v2.</li>
+</ol>

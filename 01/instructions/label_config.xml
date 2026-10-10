@@ -1,0 +1,18 @@
+<View>
+  <Header value="1. Zaznacz fragmenty (aspekty i modyfikatory)"/>
+  <Labels name="spans" toName="text" granularity="word">
+    <Label value="wzmocnienie" background="#f9a825"/>
+    <Label value="oslabienie" background="#1565c0"/>
+    <Label value="negacja" background="#6a1b9a"/>
+  </Labels>
+
+  <Text name="text" value="$text"/>
+
+  <Header value="2. Wydźwięk całego tekstu"/>
+  <Choices name="sentiment" toName="text" choice="single" showInline="true" required="true">
+    <Choice value="plus_m"/>
+    <Choice value="minus_m"/>
+    <Choice value="zero"/>
+    <Choice value="amb"/>
+  </Choices>
+</View>
