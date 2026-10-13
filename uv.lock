@@ -3012,6 +3012,7 @@ dependencies = [
     { name = "nbformat" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pl-core-news-lg" },
     { name = "plotly" },
     { name = "scikit-learn" },
     { name = "seaborn" },
@@ -3030,6 +3031,7 @@ requires-dist = [
     { name = "nbformat", specifier = ">=5.11.1" },
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "pl-core-news-lg", url = "https://github.com/explosion/spacy-models/releases/download/pl_core_news_lg-3.8.0/pl_core_news_lg-3.8.0-py3-none-any.whl" },
     { name = "plotly", specifier = ">=7.1.0" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -3503,6 +3505,14 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/18/f0/a5595c1e8c3ae44b9828cb2f0fa8155e5095ef04d6327b8f61cf44a3df85/pillow-12.3.0-cp315-cp315t-win32.whl", hash = "sha256:1657923d2d45afb66526e5b933e5b3052e6bdea196c90d3abb2424e18c77dae8", size = 6474384, upload-time = "2026-07-01T11:56:18.855Z" },
     { url = "https://files.pythonhosted.org/packages/e4/04/62bcd9f844984c5938d3b05264a61d797a29d3e0812341a8204af70bbdee/pillow-12.3.0-cp315-cp315t-win_amd64.whl", hash = "sha256:8cd2f7bdda092d99c9fc2fb7391354f306d01443d22785d0cbfafa2e2c8bb418", size = 7243537, upload-time = "2026-07-01T11:56:21.214Z" },
     { url = "https://files.pythonhosted.org/packages/3d/68/1f3066acedf37673694a7141381d8f811ae97f30d34413d236abe7d489f1/pillow-12.3.0-cp315-cp315t-win_arm64.whl", hash = "sha256:06ff022112bc9cbf83b60f8e028d94ad87b60621706487e65f673de61610ab59", size = 2567491, upload-time = "2026-07-01T11:56:23.506Z" },
+]
+
+[[package]]
+name = "pl-core-news-lg"
+version = "3.8.0"
+source = { url = "https://github.com/explosion/spacy-models/releases/download/pl_core_news_lg-3.8.0/pl_core_news_lg-3.8.0-py3-none-any.whl" }
+wheels = [
+    { url = "https://github.com/explosion/spacy-models/releases/download/pl_core_news_lg-3.8.0/pl_core_news_lg-3.8.0-py3-none-any.whl", hash = "sha256:3bc7296cd4d67fa9ee0904b25401b0e9a9a772d5c4756edf54143a2ff4c9dcc0" },
 ]
 
 [[package]]

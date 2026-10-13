@@ -18,5 +18,9 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
     "sentence-transformers",
+    "pl-core-news-lg",
     "statsmodels>=0.15.0",
 ]
+
+[tool.uv.sources]
+pl-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/pl_core_news_lg-3.8.0/pl_core_news_lg-3.8.0-py3-none-any.whl" }
