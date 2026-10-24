@@ -42,6 +42,7 @@ from utils.data import load_text, LABELS, LABEL2ID
 | `data.py` | `load_text("train" / "dev" / "test")` → `id, raw, text, label, label_id`. Etykiety: `plus_m, minus_m, zero, amb`. |
 | `tokens.py` | `load_tokens()` → `id, tokens, tags` (BIO: `wzmocnienie`, `oslabienie`, `negacja`) z anotacji w `01/annotation`. `split_tokens(df)` → train/test. `TAGS`, `TAG2ID`. |
 | `align.py` | `encode_tokens(tokenizer, tokens, tags, TAG2ID)` → tagi na subtokeny (pierwszy subtoken słowa, reszta `-100`). |
-| `plots.py` | `plot_embeddings(emb, labels, texts)` → interaktywny wykres PCA (Plotly). |
+| `plots.py` | `plot_embeddings(emb, labels, texts, method="pca")` → interaktywny wykres 2D (Plotly); `method="tsne"` dla t-SNE. |
+| `train.py` | `train(model, tok, train_ds, dev_ds, out_dir, ..., collator=None, compute_metrics=metrics)` (HF `Trainer`, ewaluacja co epokę, najlepszy checkpoint wg `f1` na dev), `plot_history({nazwa: log_history})` → krzywe uczenia. Tekst: `make_dataset(df, tok, max_length)`, `metrics` (accuracy, macro-F1). Tokeny: `make_token_dataset(df, tok, max_length)`, `token_metrics` (macro-F1 po tagach bez `O`, pomija `-100`) + `collator=DataCollatorForTokenClassification(tok)`. |
 
 Uwaga: `load_tokens()` korzysta z anotacji z Zadania 1. Są w nich tylko 35 unikalne teksty, a tagi to głosowanie większościowe anotatorów.
