@@ -43,5 +43,6 @@ from utils.data import load_text, LABELS, LABEL2ID
 | `tokens.py` | `load_tokens()` → `id, tokens, tags` (BIO: `wzmocnienie`, `oslabienie`, `negacja`) z anotacji w `01/annotation`. `split_tokens(df)` → train/test. `TAGS`, `TAG2ID`. |
 | `align.py` | `encode_tokens(tokenizer, tokens, tags, TAG2ID)` → tagi na subtokeny (pierwszy subtoken słowa, reszta `-100`). |
 | `plots.py` | `plot_embeddings(emb, labels, texts)` → interaktywny wykres PCA (Plotly). |
+| `train.py` | Klasyfikacja tekstu: `make_dataset(df, tok, max_length)`, `train(model, tok, train_ds, dev_ds, out_dir)` (HF `Trainer`, ewaluacja co epokę, najlepszy checkpoint wg macro-F1 na dev), `metrics` (accuracy, macro-F1), `plot_history({nazwa: log_history})` → krzywe uczenia. |
 
 Uwaga: `load_tokens()` korzysta z anotacji z Zadania 1. Są w nich tylko 35 unikalne teksty, a tagi to głosowanie większościowe anotatorów.
