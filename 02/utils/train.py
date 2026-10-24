@@ -2,6 +2,7 @@
 
 import pandas as pd
 import plotly.express as px
+import torch
 from datasets import Dataset
 from sklearn.metrics import accuracy_score, f1_score
 from transformers import DataCollatorWithPadding, Trainer, TrainingArguments
@@ -26,7 +27,7 @@ def make_token_dataset(df: pd.DataFrame, tok, max_length: int = 512) -> Dataset:
         [
             dict(encode_tokens(tok, t, g, TAG2ID, max_length))
             for t, g in zip(df["tokens"], df["tags"], strict=False)
-        ]
+        ],
     )
 
 
@@ -71,6 +72,7 @@ def train(
     args = TrainingArguments(
         output_dir=str(out_dir),
         num_train_epochs=epochs,
+        bf16=torch.cuda.is_available(),
         learning_rate=lr,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
