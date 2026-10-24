@@ -29,3 +29,10 @@ def load_text(split: Literal["train", "dev", "test"] = "train") -> pd.DataFrame:
     df = pd.DataFrame([{"id": i, **parse(l)} for i, l in enumerate(lines)])
     df["label_id"] = df["label"].map(LABEL2ID)
     return df
+
+
+def load_aug(name: str) -> pd.DataFrame:
+    """`data/aug_{name}.jsonl` (pola `text`, `label`) -> kolumny `text`, `label`, `label_id`, gotowe do `pd.concat` z `load_text("train")`."""
+    df = pd.read_json(DATA.parent / f"aug_{name}.jsonl", lines=True)[["text", "label"]]
+    df["label_id"] = df["label"].map(LABEL2ID)
+    return df
