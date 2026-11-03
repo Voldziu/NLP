@@ -64,10 +64,12 @@ def train(
     seed=42,
     collator=None,
     compute_metrics=metrics,
+    grad_accum=1,
 ) -> Trainer:
     """Ewaluacja na dev co epokę; na końcu ładowany jest checkpoint z najlepszym `f1` na dev.
 
     Tokeny: `collator=DataCollatorForTokenClassification(tok)`, `compute_metrics=token_metrics`.
+    `grad_accum`: efektywny batch = `batch_size * grad_accum` (np. GPT-2 medium na 8 GB VRAM: 4 x 4).
     """
     args = TrainingArguments(
         output_dir=str(out_dir),
@@ -76,6 +78,7 @@ def train(
         learning_rate=lr,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
+        gradient_accumulation_steps=grad_accum,
         eval_strategy="epoch",
         save_strategy="epoch",
         save_total_limit=1,
