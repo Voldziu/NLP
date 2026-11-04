@@ -4,3 +4,6 @@ models/
 data
 .vibe-wise/
 *.pyc
+# GPT-2 (lab02): adaptery i checkpointy poza repo
+02/artifacts/gpt2-*
+02/gpt2/logs/
