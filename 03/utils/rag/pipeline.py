@@ -34,14 +34,14 @@ RAG_PROMPT = ChatPromptTemplate.from_messages(
             "reply exactly: I don't know.\n\nContext:\n{context}",
         ),
         ("human", "{question}"),
-    ]
+    ],
 )
 
 PLAIN_PROMPT = ChatPromptTemplate.from_messages(
     [
         ("system", "Answer the question briefly (one sentence at most)."),
         ("human", "{question}"),
-    ]
+    ],
 )
 
 _CITATION_RE = re.compile(r"\[\d+\]")
@@ -62,7 +62,10 @@ def format_docs(docs: list[Doc]) -> str:
 
 
 def build_rag_chain(
-    retriever: Retriever, llm: BaseChatModel, *, k: int = 5
+    retriever: Retriever,
+    llm: BaseChatModel,
+    *,
+    k: int = 5,
 ) -> Runnable[str, RagOutput]:
     """Build the retrieve -> prompt -> generate chain.
 

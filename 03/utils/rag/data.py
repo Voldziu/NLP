@@ -26,14 +26,14 @@ def load_squad(split: str = "validation") -> tuple[list[Doc], list[QAItem]]:
         if context not in doc_ids:
             doc_ids[context] = str(len(docs))
             docs.append(
-                Doc(id=doc_ids[context], text=context, title=row["title"].replace("_", " "))
+                Doc(id=doc_ids[context], text=context, title=row["title"].replace("_", " ")),
             )
         qa.append(
             QAItem(
                 question=row["question"],
                 answers=row["answers"]["text"],
                 doc_id=doc_ids[context],
-            )
+            ),
         )
 
     logger.info("SQuAD %s: %d unique paragraphs, %d questions", split, len(docs), len(qa))
