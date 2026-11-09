@@ -70,29 +70,31 @@ Krok po kroku:
 
 ## 4. Wyniki
 
-Próbka: 50 pytań z SQuAD, ziarno 42, `k = 5`, model: _(z notebooka)_.
+Próbka: 50 pytań z SQuAD, ziarno 42, `k = 5`, model: `gemma-4-31b-it` (największy ogólny model czatowy w CLARIN, dobry angielski; `pllum` jest nastawiony na polski, `llama3.1-8b` mniejszy).
 
 | Miara | Liczba (z 50) | Udział |
 |---|---|---|
-| Retriever: właściwy akapit w top 5 (hit@5) | _(z notebooka)_ | _(z notebooka)_ |
-| RAG: odpowiedź zawiera wzorzec | _(z notebooka)_ | _(z notebooka)_ |
-| Bez RAG: odpowiedź zawiera wzorzec | _(z notebooka)_ | _(z notebooka)_ |
-| RAG: odpowiedź `I don't know.` | _(z notebooka)_ | _(z notebooka)_ |
+| Retriever: właściwy akapit w top 5 (hit@5) | 46 | 92% |
+| RAG: odpowiedź zawiera wzorzec | 44 | 88% |
+| Bez RAG: odpowiedź zawiera wzorzec | 16 | 32% |
+| RAG: odpowiedź `I don't know.` | 3 | 6% |
 
-Przykłady do pokazania (z tabeli w sekcji 3 notebooka):
+Po ręcznym przejrzeniu 6 pudeł RAG: 3 to poprawne odpowiedzi, których miara nie uznała, więc faktycznie 47/50 (94%). Pozostałe 3 to odmowy `I don't know.`, wszystkie przy złym kontekście z retrievera. Halucynacji: 0.
 
-- pytanie z bazy: _(z notebooka: pytanie, odpowiedź bez RAG, odpowiedź z RAG, źródło)_,
-- pytanie spoza bazy: _(z notebooka)_,
-- pytanie z fałszywym założeniem: _(z notebooka)_.
+Przykłady do pokazania (tabela w sekcji 3 notebooka):
+
+- **Pytanie z bazy, zależne od kontekstu**: „Who were special guests for the Super Bowl halftime show?” Bez RAG: ogólna lista artystów z różnych lat. Z RAG: „Beyoncé and Bruno Mars [2]” (Super Bowl 50).
+- **Pytanie spoza bazy**: „What is the population of Wrocław?” Retriever zwraca akapity o Warszawie, RAG: `I don't know.`; bez RAG: „około 670 tys.” z pamięci, bez źródła.
+- **Fałszywe założenie**: „Who invented the steam engine in Poland?” RAG: `I don't know.` (akapity o silniku parowym nie mówią nic o Polsce); bez RAG model sam prostuje założenie (Newcomen, Watt).
 
 ## 5. Błędy i ograniczenia
 
-Kategorie błędów RAG (liczby w notebooku, sekcja „Analiza”):
+Kategorie błędów RAG na 6 pudłach (szczegóły w notebooku, sekcja „Analiza”):
 
-- **(a) Retriever nie znalazł akapitu**: model nie ma z czego odpowiedzieć.
-- **(b) Akapit był, ale odpowiedź inna lub szersza niż wzorzec**: często fałszywy błąd miary.
-- **(c) Halucynacja**: odpowiedź bez pokrycia w kontekście.
-- **(d) `I don't know.` mimo dobrego akapitu**: zbyt ostrożny prompt albo długi kontekst.
+- **(a) Retriever nie znalazł akapitu: 3** (SAP Center, patent Tesli, „Obersee”). Model za każdym razem odpowiada `I don't know.`.
+- **(b) Odpowiedź poprawna, miara jej nie uznała: 3** („Saudi-based” sklejone przez normalizację w „saudibased”, „pure oxygen” wobec wzorca „pure O”, parafraza).
+- **(c) Halucynacja: 0.**
+- **(d) `I don't know.` mimo dobrego akapitu: 0.**
 
 Ograniczenia:
 
@@ -100,11 +102,13 @@ Ograniczenia:
 - Jakość RAG nie przekroczy jakości retrievera.
 - Próbka 50 pytań jest mała: różnica kilku punktów procentowych to nie jest wiarygodna różnica.
 - Baza to tylko artykuły z SQuAD, więc pytania spoza nich nie mają odpowiedzi w indeksie.
+- CLARIN ogranicza równoległe zapytania (HTTP 429), więc pomiar idzie po kolei z ponawianiem (`with_retry`), ok. 3,5 min na 100 wywołań.
+- Retriever ma blokadę (`threading.Lock`): `.batch()` z LangChain woła go z kilku wątków, a koder z FAISS przy równoległych wywołaniach wywracał proces.
 
 ## 6. Pytania prowadzącego
 
 **Co się stanie, gdy retriever zwróci złe akapity?**
-Model, zgodnie z promptem, powinien odpowiedzieć `I don't know.`; gorzej, gdy złe akapity brzmią wiarygodnie i model zmyśli odpowiedź na ich podstawie. Stąd analiza hit@5 osobno od jakości odpowiedzi.
+Model, zgodnie z promptem, powinien odpowiedzieć `I don't know.`; gorzej, gdy złe akapity brzmią wiarygodnie i model zmyśli odpowiedź na ich podstawie. W pomiarze retriever chybił 4 razy na 50, a w 3 z tych przypadków odpowiedź nie zawierała wzorca i za każdym razem model odmówił, zamiast zmyślać. Stąd analiza hit@5 osobno od jakości odpowiedzi.
 
 **Czemu `k = 5`, a nie 1 albo 20?**
 `k = 1` ryzykuje, że jedyny akapit jest zły. `k = 20` wydłuża prompt, dodaje szum i koszt, a model gorzej radzi sobie z długim kontekstem. Pięć to kompromis; można sprawdzić inne wartości, patrząc na hit@5.

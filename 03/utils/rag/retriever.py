@@ -1,3 +1,4 @@
+import threading
 from pathlib import Path
 
 import faiss
@@ -33,6 +34,8 @@ class FaissRetriever(Retriever):
         """
         self.docs = docs
         self.model = SentenceTransformer(model_name)
+        # LangChain .batch() calls retrieve from threads; encoder + FAISS crash concurrently.
+        self._lock = threading.Lock()
         cache_path = ARTIFACTS / f"{cache_name}__{model_name.split('/')[-1]}.npy"
 
         embeddings = self._load_cache(cache_path, len(docs))
@@ -82,8 +85,9 @@ class FaissRetriever(Retriever):
         Returns:
             Documents sorted from best to worst, with ``score`` filled in.
         """
-        q = self._encode([query], show_progress=False)
-        scores, indices = self.index.search(q, k)
+        with self._lock:
+            q = self._encode([query], show_progress=False)
+            scores, indices = self.index.search(q, k)
         return [
             self.docs[i].model_copy(update={"score": float(s)})
             for s, i in zip(scores[0], indices[0], strict=True)
