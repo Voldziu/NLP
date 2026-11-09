@@ -42,6 +42,10 @@ CLARIN_MODEL=
 
 Nowe zależności (`uv add`): `langchain-openai`, `langchain-core`, `pydantic-settings`, `faiss-cpu`.
 
+## Logger `03/utils/logger.py`
+
+Wspólny dla całego `utils/`. `get_logger(name: str) -> logging.Logger` zwraca logger z formatem `HH:MM:SS | LEVEL | nazwa | wiadomość` (wyjście na stdout, poziom `INFO`, handler dodawany tylko raz, `propagate=False`, żeby nie dublować wpisów w Jupyterze). Użycie: `logger = get_logger(__name__)`. Logują `data.py` (liczba akapitów i pytań), `retriever.py` (wczytanie lub liczenie osadzeń), `llm.py` (wybrany model).
+
 ## Moduły `03/utils/rag/`
 
 | Plik | Zawartość |
