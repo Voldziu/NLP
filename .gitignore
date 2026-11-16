@@ -7,3 +7,6 @@ data
 # GPT-2 (lab02): adaptery i checkpointy poza repo
 02/artifacts/gpt2-*
 02/gpt2/logs/
+# lab03: klucze API i osadzenia
+.env
+03/artifacts/rag/
