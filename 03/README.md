@@ -33,16 +33,22 @@ Notebooki leżą w podfolderach `03/`, więc na początku:
 
 ```python
 import sys; sys.path.insert(0, "..")
-from utils import ...
+from utils import (
+    load_squad_data,
+    encode_corpus_and_queries,
+    build_faiss_index,
+    search_faiss,
+    evaluate_rankings,
+)
 ```
 
 ## `utils/` (pisze Piotrek)
 
-Poniżej proponowany interfejs. Piotrek aktualizuje tabelę, gdy moduł jest gotowy.
+Wszystkie moduły są gotowe i przetestowane. Poniżej opis interfejsu dla Dominika:
 
 | Moduł | Co robi | Status |
 |---|---|---|
-| `data.py` | Ładuje `sentence-transformers/squad`, usuwa duplikaty dokumentów, zwraca `queries`, `docs` i `qrels` (zapytanie → id relewantnego dokumentu). | do zrobienia |
-| `encode.py` | Osadzenia zapytań i dokumentów bi-enkoderem (`multi-qa-mpnet-base-dot-v1`), z cache w `artifacts/`. | do zrobienia |
-| `index.py` | Budowa i przeszukiwanie indeksu FAISS (`top_k`), zwraca rankingi `[(doc_id, score), ...]`. | do zrobienia |
-| `metrics.py` | Metryki oceny (np. Recall@k, MRR, nDCG@k) dla rankingów i `qrels`. | do zrobienia |
+| `data.py` | `load_squad_data(split="validation", sample_queries=500, seed=42, cache_dir="../artifacts")` -> zwraca `(queries, docs, qrels)`, gdzie `queries = [{'query_id': 'q_0', 'text': '...'}]`, `docs = [{'doc_id': 'd_0', 'text': '...'}]` (po deduplikacji), `qrels = {'q_0': ['d_0']}`. | gotowe |
+| `encode.py` | `encode_corpus_and_queries(queries, docs, model_name="multi-qa-mpnet-base-dot-v1", artifacts_dir="../artifacts")` -> zwraca `(query_embeddings, doc_embeddings)` jako `np.ndarray` (`float32`), z cache w `artifacts/`. | gotowe |
+| `index.py` | `build_faiss_index(doc_embeddings, index_type="FlatIP", save_path="../artifacts/squad_faiss_flatip.index")` oraz `search_faiss(index, query_embeddings, queries, docs, top_k=5)` -> zwraca słownik rankingów `{query_id: [(doc_id, score), ...]}`. | gotowe |
+| `metrics.py` | `evaluate_rankings(rankings, qrels, k=5)` -> przyjmuje słownik rankingów `{query_id: [(doc_id, score), ...]}` oraz `qrels`, zwraca słownik `{'Recall@5': ..., 'MRR@5': ..., 'nDCG@5': ...}`. | gotowe |
