@@ -28,8 +28,9 @@ Instrukcja mówi o wyszukiwaniu z `top_k = 5` i re-rankingu. Jeśli cross-enkode
 - **Sufit.** Re-ranker nie odzyska dokumentu, którego nie ma w puli, więc Recall@n hybrydy jest górną granicą. Przy n = 50 złoty akapit jest w puli dla 99.2% zapytań, a dalsze poszerzanie do 100 nie dodaje ani jednego zapytania.
 - **Jakość się nasyca.** Największy skok jest z 5 na 10 (+0.028 Recall@5), potem przyrosty są małe, a 50 i 100 dają ten sam wynik.
 - **Koszt rośnie liniowo**, ~1.6 ms na kandydata (GPU, RTX 5060 Laptop): cross-enkoder musi przetworzyć każdą parę (zapytanie, akapit) osobno.
+- **Uwaga: to przepustowość, a nie opóźnienie.** Czasy w tabeli to obsługa wszystkich 500 zapytań jednym wsadem, podzielona przez 500. Pojedyncze zapytanie (sekcja 5.c (6) w notebooku) kosztuje więcej: dla CE top-50 mediana to ~141 ms, a p95 ~200 ms (cały potok hybryda + CE).
 
-**Dlaczego 50, a nie 20.** Różnica jakości między 20 a 50 to tylko ~3 zapytania na 500 (Recall@5 0.940 vs 0.946), czyli na granicy szumu. 50 to jednak najmniejsza pula, przy której krzywa jakości i sufit się wypłaszczają: nie zostawiamy jakości na stole, a ~80 ms na zapytanie jest akceptowalne w zadaniu ewaluacyjnym. Gdyby liczyło się opóźnienie (np. wyszukiwarka na żywo albo CPU), rozsądnym wyborem byłoby **10–20**: daje ~90–95% zysku nDCG@5 z re-rankingu (względem hybrydy bez CE) przy 20–40% kosztu.
+**Dlaczego 50, a nie 20.** Różnica jakości między 20 a 50 to tylko ~3 zapytania na 500 (Recall@5 0.940 vs 0.946), czyli na granicy szumu. 50 to jednak najmniejsza pula, przy której krzywa jakości i sufit się wypłaszczają: nie zostawiamy jakości na stole, a ~80 ms na zapytanie jest akceptowalne w zadaniu ewaluacyjnym. Gdyby liczyło się opóźnienie (np. wyszukiwarka obsługująca zapytania pojedynczo na żywo, gdzie CE top-50 to ~141 ms, albo CPU), rozsądnym wyborem byłoby **10–20**: daje ~90–95% zysku nDCG@5 z re-rankingu (względem hybrydy bez CE) przy 20–40% kosztu.
 
 ## 3. Dlaczego wszystkie 500 zapytań, a nie „wybrane”
 

@@ -86,16 +86,29 @@ Drugi przebieg od zera dał identyczne metryki, a czasy różnią się o mniej n
 
 **Pula re-rankingu: zostaje 50.** Reguła z planu brzmiała: jeśli mniejsza pula wystarcza, zmniejszam. Między 20 a 50 różnica to ~3 zapytania (na granicy szumu), ale dopiero przy 50 wypłaszczają się i jakość, i sufit (Recall@50 hybrydy 0.992; 100 nie dodaje nic). Koszt ~80 ms/zapytanie jest w zadaniu ewaluacyjnym akceptowalny. W `rerank_pool.md` opisuję 10–20 jako lepszy wybór, gdyby liczyło się opóźnienie.
 
+## Krok 7: uzupełnienia po przeglądzie kompletności
+
+Po sprawdzeniu, czy wszystko z instrukcji jest pokryte, zostały dwa słabsze miejsca.
+
+**4.d: liczby i synonimy.** Koszyki „tylko BM25 / tylko bi-enkoder” były za małe (np. 3 zapytania z liczbą), żeby sprawdzić kategorie z instrukcji. Dodałem test na **podgrupach wszystkich 500 zapytań**: liczba, nazwa własna, rzadka nazwa własna, rzadki termin, synonim w akapicie, niskie pokrycie. Do tego wykres Recall@5 w funkcji pokrycia leksykalnego.
+- **Synonimy przez WordNet** (`uv add nltk` + pobranie danych `wordnet` w notebooku). „Synonim w akapicie” oznacza słowo z zapytania, którego nie ma w złotym akapicie, a jest tam jego synonim. Pierwsza wersja była zaszumiona („did → perform”, „does → manage”), więc zawęziłem ją do rzeczowników, przymiotników i przysłówków, 3 najczęstszych znaczeń i słów występujących w ≤ 1500 akapitach. Zostały sensowne pary (Caucasian → white, Burma → Myanmar, suit → lawsuit) z niewielkim szumem (players → actor), który opisuję w notebooku.
+- **Wyniki:** synonimy 0.90 vs 0.73 i parafrazy 0.80 vs 0.43 na korzyść bi-enkodera; liczby (0.897 vs 0.879) oraz rzadkie terminy to przewaga BM25 rzędu jednego zapytania. Nazwy własne ogółem sprzyjają **bi-enkoderowi** (0.907 vs 0.870), BM25 zyskuje dopiero przy rzadkich nazwach. Nowa obserwacja: przy silnej parafrazie hybryda RRF (0.64) jest wyraźnie gorsza od samego bi-enkodera (0.80).
+- Wpadka po drodze: skrypt eksploracyjny uruchomiłem z `03/` zamiast z `03/dominik/`, a ścieżki cache w `utils` są względne (`../artifacts`), więc powstał katalog `NLP/artifacts/`. Usunąłem go (zawierał tylko pliki z tego skryptu) i dalej uruchamiam wszystko z `03/dominik/`.
+
+**5.c: przepustowość a opóźnienie.** Dotychczasowe „ms/zapytanie” to czas wsadu 500 zapytań podzielony przez 500. Dodałem pomiar 100 zapytań obsługiwanych pojedynczo, z każdym etapem potoku osobno (mediana i p95). Pojedyncze zapytanie jest 1.5–10× droższe; najbardziej bi-enkoder (0.9 → ~9 ms, stały narzut GPU). CE top-50 ma medianę ~141 ms. Etykiety wykresów mówią teraz wprost, że to czasy wsadowe.
+
+Sprawdziłem też, czy cross-enkoder na pewno działa na GPU (`cuda:0`), bo ~1.6 ms na parę wyglądało na wolne. Działa; koszt wynika z długich akapitów (dopełnienie do najdłuższej pary w batchu, do 512 tokenów) i tokenizacji na CPU.
+
 ## Wyniki końcowe
 
-| System | Recall@5 | MRR@5 | nDCG@5 | ms/zapytanie |
-|---|---|---|---|---|
-| BM25 | 0.852 | 0.761 | 0.784 | ~1.2 |
-| Bi-enkoder (pkt 3) | 0.882 | 0.752 | 0.785 | ~0.8 |
-| Hybryda RRF | 0.910 | 0.817 | 0.840 | ~2 |
-| Hybryda + CE (top-5) | 0.910 | 0.858 | 0.871 | ~10 |
-| **Hybryda + CE (top-50)** | **0.946** | **0.889** | **0.903** | ~79 |
-| Hybryda + CE L12 (top-50) | 0.960 | 0.904 | 0.918 | ~156 |
+| System | Recall@5 | MRR@5 | nDCG@5 | ms/zapytanie (wsad) | ms (pojedyncze, mediana) |
+|---|---|---|---|---|---|
+| BM25 | 0.852 | 0.761 | 0.784 | ~1.2 | ~2 |
+| Bi-enkoder (pkt 3) | 0.882 | 0.752 | 0.785 | ~0.9 | ~9 |
+| Hybryda RRF | 0.910 | 0.817 | 0.840 | ~2 | ~10 |
+| Hybryda + CE (top-5) | 0.910 | 0.858 | 0.871 | ~11 | ~26 |
+| **Hybryda + CE (top-50)** | **0.946** | **0.889** | **0.903** | ~79 | ~141 |
+| Hybryda + CE L12 (top-50) | 0.960 | 0.904 | 0.918 | ~156 | ~266 |
 
 ---
 

@@ -32,6 +32,7 @@ dependencies = [
     "bm25s>=0.3.16",
     "pystemmer>=3.1.0",
     "matplotlib-venn>=1.1.2",
+    "nltk>=3.10.3",
 ]
 
 [tool.uv.sources]
