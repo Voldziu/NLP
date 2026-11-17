@@ -52,7 +52,7 @@ Struktura odpowiada instrukcji: 0 (dane + bi-enkoder) → 4.a → 4.b → 4.c �
 - **4.e:** wyjaśnienie + histogramy wyników obu systemów + ablacja CombSUM (surowe / min-max) vs RRF. Mierzę też, jak często top-1 fuzji to top-1 BM25, a jak często bi-enkodera. To pokazuje, który system „dominuje” przy sumowaniu surowych wyników.
 - **5.a-b:** CE na top-50 hybrydy (wariant główny), wariant kontrolny top-5 (**assert**: ten sam zbiór dokumentów i ta sama Recall@5) oraz L12 dla porównania. Ostatni ranking CE ma 50 pozycji zamiast 5, żeby dało się narysować krzywą Recall@k.
 - **Pula re-rankingu:** n ∈ {5, 10, 20, 50, 100} z sufitem Recall@n hybrydy i czasem. Ten wykres to podstawa `rerank_pool.md`.
-- **5.c:** 5 wykresów (metryki, Recall@k, rozkład pozycji, przejścia pozycji przed/po CE, jakość a czas) + tabela + przykłady naprawionych i zepsutych rankingów.
+- **5.c:** 5 wykresów (metryki, Recall@k, rozkład pozycji, przejścia pozycji przed/po CE, jakość a czas) + tabela + przykłady naprawionych i zepsutych rankingów. W kroku 7 doszedł 6. wykres: przepustowość a opóźnienie.
 - Wykresy zapisują się do `03/dominik/figures/` (PNG, 150 dpi), każdy system ma jeden kolor we wszystkich wykresach.
 - Komórki z interpretacją uzupełniam **po** uruchomieniu, żeby wnioski opierały się na faktycznych liczbach.
 
