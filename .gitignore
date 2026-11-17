@@ -10,3 +10,4 @@ data
 # lab03: klucze API i osadzenia
 .env
 03/artifacts/rag/
+03/artifacts/
