@@ -33,6 +33,12 @@ uv sync   # z korzenia repo; dochodzą pyvene i plotnine
 
 Przy wolnej sieci `uv` może przerwać pobieranie po 30 s. Pomaga `UV_HTTP_TIMEOUT=600 uv sync`.
 
+Za firmowym VPN pobieranie z HF przez xet kończy się błędem 404 na `xet-read-token`. Pomaga wyłączenie xet:
+
+```bash
+HF_HUB_DISABLE_XET=1 uv run python -c "from huggingface_hub import snapshot_download as s; s('gpt2-xl', allow_patterns=['*.json', '*.txt', 'model.safetensors'])"
+```
+
 gpt2-xl (i klasyfikator utahnlp) to ok. 6,5 GB każdy w float32. Mieszczą się na Macu z 16+ GB (MPS). Pierwsze pobranie z HF trwa kilka minut.
 
 Notebooki leżą w podfolderach `04/`, więc na początku:

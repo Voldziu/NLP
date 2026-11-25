@@ -12,6 +12,7 @@ from .core import (
     trace_all_streams,
     trace_stream,
 )
+from .groups import groups_summary, trace_groups
 from .interventions import (
     DEFAULT_WINDOW,
     NOTEBOOK_NOISE_LEVEL_GPT2_XL,
@@ -33,6 +34,7 @@ __all__ = [
     "compute_noise_level",
     "corrupted_config",
     "find_token_positions",
+    "groups_summary",
     "load_trace_streams",
     "make_noise_intervention",
     "next_token_prob",
@@ -47,5 +49,6 @@ __all__ = [
     "tokenize",
     "top_next_tokens",
     "trace_all_streams",
+    "trace_groups",
     "trace_stream",
 ]
