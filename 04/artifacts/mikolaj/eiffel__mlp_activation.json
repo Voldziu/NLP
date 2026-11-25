@@ -1,0 +1,32 @@
+{
+  "text": "The Eiffel Tower is located in the city of",
+  "tokens": [
+    "The",
+    " E",
+    "iff",
+    "el",
+    " Tower",
+    " is",
+    " located",
+    " in",
+    " the",
+    " city",
+    " of"
+  ],
+  "noised": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stream": "mlp_activation",
+  "window": 10,
+  "noise_level": 0.13462981581687927,
+  "clean": {
+    "prob": 0.9340536594390869
+  },
+  "corrupted": {
+    "prob": 0.0016540961805731058
+  }
+}

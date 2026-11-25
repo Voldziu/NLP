@@ -1,0 +1,27 @@
+{
+  "text": "The Space Needle is in downtown",
+  "tokens": [
+    "The",
+    " Space",
+    " Need",
+    "le",
+    " is",
+    " in",
+    " downtown"
+  ],
+  "noised": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "stream": "attention_output",
+  "window": 10,
+  "noise_level": 0.4310866445302963,
+  "clean": {
+    "prob": 0.08052375912666321
+  },
+  "corrupted": {
+    "prob": 0.011910132132470608
+  }
+}

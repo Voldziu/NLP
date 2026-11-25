@@ -7,6 +7,7 @@ from collections.abc import Mapping, Sequence
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import pandas as pd
 from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 
@@ -96,6 +97,39 @@ def plot_trace_grid(
         for c, stream in enumerate(streams):
             res = examples[name][stream]
             plot_trace(res, key, ax=axes[r][c], title=f"{name} · {stream}")
+    fig.tight_layout()
+    if save_path is not None:
+        save_figure(fig, save_path)
+    return fig
+
+
+def plot_groups(
+    df: pd.DataFrame,
+    key: str = "prob",
+    *,
+    title: str | None = None,
+    save_path: str | Path | None = None,
+) -> Figure:
+    """Wynik `trace_groups`: po jednym panelu na strumień, linia = grupa pozycji.
+
+    Linie przerywane: wynik czysty (clean) i zaszumiony (corrupted).
+    """
+    streams = list(dict.fromkeys(df["stream"]))
+    fig, axes = plt.subplots(1, len(streams), figsize=(5.2 * len(streams), 3.4), squeeze=False)
+    for ax, stream in zip(axes[0], streams, strict=True):
+        part = df[df["stream"] == stream]
+        for group, g in part.groupby("group", sort=False):
+            ax.plot(g["layer"], g[key], label=str(group))
+        ax.axhline(part[f"clean_{key}"].iloc[0], ls="--", c="gray", lw=1, label="clean")
+        ax.axhline(part[f"corrupted_{key}"].iloc[0], ls=":", c="gray", lw=1, label="corrupted")
+        ax.set_title(stream, fontsize=10)
+        window = 1 if stream == "block_output" else 10
+        ax.set_xlabel(STREAM_TITLES.get(stream, stream).format(w=window))
+        ax.set_ylabel(key)
+        ax.set_ylim(0, 1)
+    axes[0][0].legend(fontsize=8)
+    if title:
+        fig.suptitle(title, fontsize=11)
     fig.tight_layout()
     if save_path is not None:
         save_figure(fig, save_path)
