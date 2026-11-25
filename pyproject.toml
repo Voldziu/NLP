@@ -29,6 +29,8 @@ dependencies = [
     "langchain-core>=1.7.6",
     "pydantic-settings>=2.16.2",
     "faiss-cpu>=1.15.1",
+    "pyvene>=0.1.8",
+    "plotnine>=0.15.3",
 ]
 
 [tool.uv.sources]
